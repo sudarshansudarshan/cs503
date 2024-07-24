@@ -1,0 +1,40 @@
+
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+
+\newcommand{\digitboxes}{
+    \foreach \i in {1,...,11}{
+        \node[draw, minimum size=1cm, inner sep=0pt] (box\i) at (\i-7.0, 0) {};
+    }
+}
+
+\newcommand{\pageheader}[1]{
+
+    \node[draw, minimum height=1cm, inner ysep=0pt, text width=1.4cm] (header) at (0,1.5) {Q1P#1};
+}
+
+\newcommand{\pincodepage}[2]{
+    \begin{tikzpicture}
+        \pageheader{#1}
+		\digitboxes
+        \node[text width=13cm, align=left, below=2cm of header] {#2};
+    \end{tikzpicture}
+}
+
+\begin{document}
+\pagestyle{empty}
+
+\foreach \pagenum in {1,...,120}{
+    \begin{center}
+        \pincodepage{\the\numexpr 2*\pagenum-1\relax}{1. Give an example of two different graphs on 5 vertices with the same degree sequence.}
+    \end{center}
+    \newpage
+    \begin{center}
+        \pincodepage{\the\numexpr 2*\pagenum\relax}{2. Construct two graphs with 6 nodes and 15 edges that are non-isomorphic. This is not possible. Explain why?}
+    \end{center}
+    \newpage
+}
+\end{document}

@@ -1,0 +1,40 @@
+
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+
+\newcommand{\digitboxes}{
+    \foreach \i in {1,...,11}{
+        \node[draw, minimum size=1cm, inner sep=0pt] (box\i) at (\i-7.0, 0) {};
+    }
+}
+
+\newcommand{\pageheader}[1]{
+
+    \node[draw, minimum height=1cm, inner ysep=0pt, text width=1.4cm] (header) at (0,1.5) {Q3P#1};
+}
+
+\newcommand{\pincodepage}[2]{
+    \begin{tikzpicture}
+        \pageheader{#1}
+		\digitboxes
+        \node[text width=13cm, align=left, below=2cm of header] {#2};
+    \end{tikzpicture}
+}
+
+\begin{document}
+\pagestyle{empty}
+
+\foreach \pagenum in {1,...,140}{
+    \begin{center}
+			\pincodepage{\the\numexpr 2*\pagenum-1\relax}{Define what is a DiGraph and give a real life example where it is used.}
+    \end{center}
+    \newpage
+    \begin{center}
+			\pincodepage{\the\numexpr 2*\pagenum\relax}{}
+    \end{center}
+    \newpage
+}
+\end{document}

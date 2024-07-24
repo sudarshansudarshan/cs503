@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/discretemath/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/discretemath/" rel="alternate" type="text/html" /><updated>2024-01-31T17:08:23+00:00</updated><id>http://localhost:4000/discretemath/feed.xml</id><title type="html">CS101</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Basics of Graph Theory</title><link href="http://localhost:4000/discretemath/L2" rel="alternate" type="text/html" title="Basics of Graph Theory" /><published>2023-03-21T00:00:00+00:00</published><updated>2023-03-21T00:00:00+00:00</updated><id>http://localhost:4000/discretemath/Basics-of-Graph-Theory</id><content type="html" xml:base="http://localhost:4000/discretemath/L2"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td>Lecture 2</td>
+      <td>Basics of Graph Theory</td>
+      <td><a href="https://www.youtube.com/watch?v=vlSEcWxXTnI">Link to the Classroom Lecture</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<ol>
+  <li>
+    <p>Show that in any graph the total number of vertices with odd degree is even.</p>
+  </li>
+  <li>
+    <p>We revisit the question of isomorphic graphs. Give an example of two graphs with the same degree sequence but are not the same.</p>
+  </li>
+  <li>
+    <p>Show that at any party, there is a pair of people who have shook the same number of hands.</p>
+  </li>
+</ol>]]></content><author><name></name></author><category term="Lectures" /><summary type="html"><![CDATA[Lecture 2 Basics of Graph Theory Link to the Classroom Lecture]]></summary></entry><entry><title type="html">Introduction Class + Graph Theory</title><link href="http://localhost:4000/discretemath/L1" rel="alternate" type="text/html" title="Introduction Class + Graph Theory" /><published>2023-03-20T00:00:00+00:00</published><updated>2023-03-20T00:00:00+00:00</updated><id>http://localhost:4000/discretemath/Introduction</id><content type="html" xml:base="http://localhost:4000/discretemath/L1"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td>Lecture 1</td>
+      <td>Introduction Class + Graph Theory</td>
+      <td><a href="https://www.youtube.com/watch?v=ukOOZfCJo3U">Link to the Classroom Lecture</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="graphs">Graphs</h1>
+<p>We introduced the idea of Graphs.</p>
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/-peAUmrm4RM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+<p>.</p>
+
+<h1 id="handshaking-lemma">Handshaking Lemma</h1>
+<p>We spoke about handshakes in the classroom and how we can model it using Graphs.</p>
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/szOGC5OxJBY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+<p>By degree, we mean the number of lines that are adjacent on a point, or simply speaking, the number of friends that a person keeps</p>
+
+<h1 id="isomorphic-graphs">Isomorphic Graphs</h1>
+<p>We saw how two graphs that are appearingly different can actually be the same.</p>
+
+<ol>
+  <li>
+    <p><strong>Quiz</strong>: Are the following two graphs the same?<br />
+<img src="/discretemath/assets/images/c5.png" alt="C5" width="200" height="200" />
+<img src="/discretemath/assets/images/star.png" alt="Star" width="200" height="200" /></p>
+  </li>
+  <li>
+    <p><strong>Test</strong>: Are the following two graphs the same?<br />
+<img src="/discretemath/assets/images/10node_labelled.png" alt="C5" width="200" height="200" />
+<img src="/discretemath/assets/images/10node_unlabelled.png" alt="Star" width="200" height="200" /></p>
+  </li>
+  <li>
+    <p><strong>Quiz</strong>: Understand how the graphs as illustrated in the lecture (<a href="https://youtu.be/ukOOZfCJo3U?t=2607">link</a>), are not isomorphic. Why? Google for Petersen Graph for some fun reading.</p>
+  </li>
+  <li>
+    <p><strong>Test</strong>: If you are given two graphs on 100 nodes, how can one write a piece of code to find out if these two graphs are the same or not? What is the complexity involved in finding this out?</p>
+  </li>
+</ol>]]></content><author><name></name></author><category term="Lectures" /><summary type="html"><![CDATA[Lecture 1 Introduction Class + Graph Theory Link to the Classroom Lecture]]></summary></entry></feed>

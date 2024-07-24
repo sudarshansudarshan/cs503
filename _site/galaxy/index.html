@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Galaxy | CS101</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Galaxy" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+<link rel="canonical" href="http://localhost:4000/discretemath/galaxy/" />
+<meta property="og:url" content="http://localhost:4000/discretemath/galaxy/" />
+<meta property="og:site_name" content="CS101" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Galaxy" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Galaxy","url":"http://localhost:4000/discretemath/galaxy/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/discretemath/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/discretemath/feed.xml" title="CS101" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/discretemath/">CS101</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/discretemath/handbook/">Handbook</a><a class="page-link" href="/discretemath/faq/">FAQ</a><a class="page-link" href="/discretemath/proceedings/">Proceedings</a><a class="page-link" href="/discretemath/project/">Project</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Galaxy</h1>
+  </header>
+
+  <div class="post-content">
+    <ul id="markdown-toc">
+  <li><a href="#1-birthday-paradox" id="markdown-toc-1-birthday-paradox">1. Birthday Paradox</a></li>
+  <li><a href="#2-finding-sqrt-10" id="markdown-toc-2-finding-sqrt-10">2. Finding \(\sqrt 10\)</a></li>
+  <li><a href="#3-finding-gcd" id="markdown-toc-3-finding-gcd">3. Finding GCD</a></li>
+</ul>
+
+<h3 id="1-birthday-paradox">1. Birthday Paradox</h3>
+<p>Given a bunch of 30 students in a class, there is a high chance that you have 2 people with the same birthday. Instead of 30, if the class has n students, what are the chances that you will find two people with the same birthday?</p>
+
+<blockquote>
+  <p>Try writing a piece of python code which plots the probability Vs n</p>
+</blockquote>
+
+<p>We observe that the probability of we not having two people with the same birthday in a class of \(n\) people is given by :</p>
+
+\[\frac{365}{365}.\frac{364}{365}.\frac{363}{365}\cdots \frac{(365-n)}{365}\]
+
+<p>(There is a minor error in the above product. Can you identify?)</p>
+
+<p>Let us call this \(f(n)\).</p>
+
+\[f(n)=\left({1-\frac{0}{365}}\right).\left({1-\frac{1}{365}}\right).\left({1-\frac{2}{365}}\right)... \left({1-\frac{n}{365}} \right)\]
+
+<p>We know that \(\left( 1-x\right)\approx e^{-x}\)</p>
+
+<p>Therefore,</p>
+
+\[f(n) \approx e^{\frac{-1}{365}}.e^{\frac{-2}{365}}.e^{\frac{-3}{365}}...e^{\frac{-n}{365}}\]
+
+\[f(n)\approx e^{\frac{-n(n+1)/2}{365}}\]
+
+<p>This simply tells us that for around 50 students in a class
+\(f(50)\approx e^{\frac{-50(51)/2}{365}}=0.03\)</p>
+
+<p>The probability of we finding two people with the same birthday is \(0.97\)</p>
+
+<ul>
+  <li>Can you observe this empirically for 50 students? is the probability of success 0.97?</li>
+  <li>Can you think of some application of this idea?</li>
+  <li>When you put 50 balls in 365 baskets, uniformly at random, do you think that you can surely find a basket with atleast 2 balls?</li>
+  <li>What do you have to say about birthday paradox’s relevance on planet Neptune where one year comprises of 60,000 days :-) ?</li>
+</ul>
+
+<h3 id="2-finding-sqrt-10">2. Finding \(\sqrt 10\)</h3>
+
+<p>Finding square root of 10 is equivalent to finding the root of the equation</p>
+
+\[x^2 - 10 =0\]
+
+<p>Note that one can observe that the root lies between 3 and 4, simply because considering \(f(x) = x^2 - 10\), \(f(3)&lt;0\) and \(f(4)&gt;0\).</p>
+
+<p>This means the answer lies between 3 and 4.</p>
+
+<p>One can further observe that the root lies between 3 and 3.5 and not between 3.5 and 4.</p>
+
+<p>We can keep reducing the size of the interval this way.</p>
+
+<p>Everytime, we reduce the interval by half.</p>
+
+<p>It is easy to see that we can find the value of \(\sqrt{10}\) with increased accuracy with time.</p>
+
+<p><strong>Observe: The rate at which we converge to the answer is logarithmic (why?)</strong></p>
+
+<h3 id="3-finding-gcd">3. Finding GCD</h3>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">gcd</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">):</span>
+	<span class="k">if</span> <span class="p">(</span><span class="n">a</span><span class="o">&lt;</span><span class="n">b</span><span class="p">):</span>
+		<span class="k">return</span> <span class="n">gcd</span><span class="p">(</span><span class="n">b</span><span class="p">,</span><span class="n">a</span><span class="p">)</span>
+	<span class="k">else</span><span class="p">:</span>
+		<span class="k">if</span> <span class="p">(</span><span class="n">b</span><span class="o">==</span><span class="mi">0</span><span class="p">):</span>
+			<span class="k">return</span> <span class="n">a</span>
+		<span class="k">else</span><span class="p">:</span>
+			<span class="k">return</span> <span class="n">gcd</span><span class="p">(</span><span class="n">b</span><span class="p">,</span><span class="n">a</span><span class="o">%</span><span class="n">b</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Note that the above snippet of code finds the GCD of two numbers in lightening speed. It only takes logarithm in the \(min(a,b)\).</p>
+
+<p><strong>Reason: Every step leads to a reduction in one of the numbers by half</strong></p>
+
+
+  </div>
+
+</article>
+
+      </div>
+    </main>
+
+	<!-- The following code is commented out to remove the footer information in the default page.-->	
+	<!--<footer class="site-footer h-card">
+  <data class="u-url" href="/discretemath/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">CS101</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">CS101</li><li><a class="u-email" href="mailto:sudarshansudarshan@gmail.com">sudarshansudarshan@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/sudarshansudarshan"><svg class="svg-icon"><use xlink:href="/discretemath/assets/minima-social-icons.svg#github"></use></svg> <span class="username">sudarshansudarshan</span></a></li><li><a href="https://www.twitter.com/sudarshaniisc"><svg class="svg-icon"><use xlink:href="/discretemath/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">sudarshaniisc</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+-->
+
+  </body>
+
+</html>
+
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>

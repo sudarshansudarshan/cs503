@@ -1,0 +1,1386 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.27)  1 APR 2023 09:59
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**quiz.tex
+(./quiz.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks19
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks20
+\pgfutil@tempdima=\dimen149
+\pgfutil@tempdimb=\dimen150
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box51
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen151
+\Gin@req@width=\dimen152
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks21
+\pgfkeys@temptoks=\toks22
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
+tered.code.tex
+\pgfkeys@tmptoks=\toks23
+))
+\pgf@x=\dimen153
+\pgf@y=\dimen154
+\pgf@xa=\dimen155
+\pgf@ya=\dimen156
+\pgf@xb=\dimen157
+\pgf@yb=\dimen158
+\pgf@xc=\dimen159
+\pgf@yc=\dimen160
+\pgf@xd=\dimen161
+\pgf@yd=\dimen162
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count196
+\c@pgf@countb=\count197
+\c@pgf@countc=\count198
+\c@pgf@countd=\count199
+\t@pgf@toka=\toks24
+\t@pgf@tokb=\toks25
+\t@pgf@tokc=\toks26
+\pgf@sys@id@count=\count266
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count267
+\pgfsyssoftpath@bigbuffer@items=\count268
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen163
+\pgfmath@count=\count269
+\pgfmath@box=\box52
+\pgfmath@toks=\toks27
+\pgfmath@stack@operand=\toks28
+\pgfmath@stack@operation=\toks29
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count270
+)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen164
+\pgf@picmaxx=\dimen165
+\pgf@picminy=\dimen166
+\pgf@picmaxy=\dimen167
+\pgf@pathminx=\dimen168
+\pgf@pathmaxx=\dimen169
+\pgf@pathminy=\dimen170
+\pgf@pathmaxy=\dimen171
+\pgf@xx=\dimen172
+\pgf@xy=\dimen173
+\pgf@yx=\dimen174
+\pgf@yy=\dimen175
+\pgf@zx=\dimen176
+\pgf@zy=\dimen177
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen178
+\pgf@path@lasty=\dimen179
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen180
+\pgf@shorten@start@additional=\dimen181
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box53
+\pgf@hbox=\box54
+\pgf@layerbox@main=\box55
+\pgf@picture@serial@count=\count271
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen182
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen183
+\pgf@pt@y=\dimen184
+\pgf@pt@temp=\dimen185
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen186
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen187
+\pgf@sys@shading@range@num=\count272
+\pgf@shadingcount=\count273
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box56
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box57
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen188
+\pgf@nodesepend=\dimen189
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen190
+\pgffor@skip=\dimen191
+\pgffor@stack=\toks30
+\pgffor@toks=\toks31
+))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count274
+\pgfplotmarksize=\dimen192
+)
+\tikz@lastx=\dimen193
+\tikz@lasty=\dimen194
+\tikz@lastxsaved=\dimen195
+\tikz@lastysaved=\dimen196
+\tikz@lastmovetox=\dimen197
+\tikz@lastmovetoy=\dimen198
+\tikzleveldistance=\dimen199
+\tikzsiblingdistance=\dimen256
+\tikz@figbox=\box58
+\tikz@figbox@bg=\box59
+\tikz@tempbox=\box60
+\tikz@tempbox@bg=\box61
+\tikztreelevel=\count275
+\tikznumberofchildren=\count276
+\tikznumberofcurrentchild=\count277
+\tikz@fig@count=\count278
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count279
+\pgfmatrixcurrentcolumn=\count280
+\pgf@matrix@numberofcolumns=\count281
+)
+\tikz@expandcount=\count282
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count283
+\l__pdf_internal_box=\box62
+)
+(./quiz.aux)
+\openout1 = `quiz.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count284
+\scratchdimen=\dimen257
+\scratchbox=\box63
+\nofMPsegments=\count285
+\nofMParguments=\count286
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count287
+\MPscratchDim=\dimen258
+\MPnumerator=\count288
+\makeMPintoPDFobject=\count289
+\everyMPtoPDFconversion=\toks33
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+[1
+
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
+[18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32]
+[33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]
+[48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62]
+[63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77]
+[78] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92]
+[93] [94] [95] [96] [97] [98] [99]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P100  
+ []
+
+[100]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P101  
+ []
+
+[101]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P102  
+ []
+
+[102]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P103  
+ []
+
+[103]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P104  
+ []
+
+[104]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P105  
+ []
+
+[105]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P106  
+ []
+
+[106]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P107  
+ []
+
+[107]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P108  
+ []
+
+[108]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P109  
+ []
+
+[109]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P110  
+ []
+
+[110]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P111  
+ []
+
+[111]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P112  
+ []
+
+[112]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P113  
+ []
+
+[113]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P114  
+ []
+
+[114]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P115  
+ []
+
+[115]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P116  
+ []
+
+[116]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P117  
+ []
+
+[117]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P118  
+ []
+
+[118]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P119  
+ []
+
+[119]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P120  
+ []
+
+[120]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P121  
+ []
+
+[121]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P122  
+ []
+
+[122]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P123  
+ []
+
+[123]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P124  
+ []
+
+[124]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P125  
+ []
+
+[125]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P126  
+ []
+
+[126]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P127  
+ []
+
+[127]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P128  
+ []
+
+[128]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P129  
+ []
+
+[129]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P130  
+ []
+
+[130]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P131  
+ []
+
+[131]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P132  
+ []
+
+[132]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P133  
+ []
+
+[133]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P134  
+ []
+
+[134]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P135  
+ []
+
+[135]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P136  
+ []
+
+[136]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P137  
+ []
+
+[137]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P138  
+ []
+
+[138]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P139  
+ []
+
+[139]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P140  
+ []
+
+[140]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P141  
+ []
+
+[141]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P142  
+ []
+
+[142]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P143  
+ []
+
+[143]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P144  
+ []
+
+[144]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P145  
+ []
+
+[145]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P146  
+ []
+
+[146]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P147  
+ []
+
+[147]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P148  
+ []
+
+[148]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P149  
+ []
+
+[149]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P150  
+ []
+
+[150]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P151  
+ []
+
+[151]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P152  
+ []
+
+[152]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P153  
+ []
+
+[153]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P154  
+ []
+
+[154]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P155  
+ []
+
+[155]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P156  
+ []
+
+[156]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P157  
+ []
+
+[157]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P158  
+ []
+
+[158]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P159  
+ []
+
+[159]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P160  
+ []
+
+[160]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P161  
+ []
+
+[161]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P162  
+ []
+
+[162]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P163  
+ []
+
+[163]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P164  
+ []
+
+[164]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P165  
+ []
+
+[165]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P166  
+ []
+
+[166]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P167  
+ []
+
+[167]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P168  
+ []
+
+[168]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P169  
+ []
+
+[169]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P170  
+ []
+
+[170]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P171  
+ []
+
+[171]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P172  
+ []
+
+[172]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P173  
+ []
+
+[173]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P174  
+ []
+
+[174]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P175  
+ []
+
+[175]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P176  
+ []
+
+[176]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P177  
+ []
+
+[177]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P178  
+ []
+
+[178]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P179  
+ []
+
+[179]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P180  
+ []
+
+[180]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P181  
+ []
+
+[181]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P182  
+ []
+
+[182]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P183  
+ []
+
+[183]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P184  
+ []
+
+[184]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P185  
+ []
+
+[185]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P186  
+ []
+
+[186]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P187  
+ []
+
+[187]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P188  
+ []
+
+[188]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P189  
+ []
+
+[189]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P190  
+ []
+
+[190]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P191  
+ []
+
+[191]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P192  
+ []
+
+[192]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P193  
+ []
+
+[193]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P194  
+ []
+
+[194]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P195  
+ []
+
+[195]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P196  
+ []
+
+[196]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P197  
+ []
+
+[197]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P198  
+ []
+
+[198]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P199  
+ []
+
+[199]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P200  
+ []
+
+[200]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P201  
+ []
+
+[201]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P202  
+ []
+
+[202]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P203  
+ []
+
+[203]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P204  
+ []
+
+[204]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P205  
+ []
+
+[205]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P206  
+ []
+
+[206]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P207  
+ []
+
+[207]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P208  
+ []
+
+[208]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P209  
+ []
+
+[209]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P210  
+ []
+
+[210]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P211  
+ []
+
+[211]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P212  
+ []
+
+[212]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P213  
+ []
+
+[213]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P214  
+ []
+
+[214]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P215  
+ []
+
+[215]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P216  
+ []
+
+[216]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P217  
+ []
+
+[217]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P218  
+ []
+
+[218]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P219  
+ []
+
+[219]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P220  
+ []
+
+[220]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P221  
+ []
+
+[221]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P222  
+ []
+
+[222]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P223  
+ []
+
+[223]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P224  
+ []
+
+[224]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P225  
+ []
+
+[225]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P226  
+ []
+
+[226]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P227  
+ []
+
+[227]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P228  
+ []
+
+[228]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P229  
+ []
+
+[229]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P230  
+ []
+
+[230]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P231  
+ []
+
+[231]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P232  
+ []
+
+[232]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P233  
+ []
+
+[233]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P234  
+ []
+
+[234]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P235  
+ []
+
+[235]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P236  
+ []
+
+[236]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P237  
+ []
+
+[237]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P238  
+ []
+
+[238]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P239  
+ []
+
+[239]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P240  
+ []
+
+[240]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P241  
+ []
+
+[241]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P242  
+ []
+
+[242]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P243  
+ []
+
+[243]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P244  
+ []
+
+[244]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P245  
+ []
+
+[245]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P246  
+ []
+
+[246]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P247  
+ []
+
+[247]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P248  
+ []
+
+[248]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P249  
+ []
+
+[249]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P250  
+ []
+
+[250]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P251  
+ []
+
+[251]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P252  
+ []
+
+[252]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P253  
+ []
+
+[253]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P254  
+ []
+
+[254]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P255  
+ []
+
+[255]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P256  
+ []
+
+[256]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P257  
+ []
+
+[257]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P258  
+ []
+
+[258]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P259  
+ []
+
+[259]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P260  
+ []
+
+[260]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P261  
+ []
+
+[261]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P262  
+ []
+
+[262]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P263  
+ []
+
+[263]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P264  
+ []
+
+[264]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P265  
+ []
+
+[265]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P266  
+ []
+
+[266]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P267  
+ []
+
+[267]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P268  
+ []
+
+[268]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P269  
+ []
+
+[269]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P270  
+ []
+
+[270]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P271  
+ []
+
+[271]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P272  
+ []
+
+[272]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P273  
+ []
+
+[273]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P274  
+ []
+
+[274]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P275  
+ []
+
+[275]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P276  
+ []
+
+[276]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P277  
+ []
+
+[277]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P278  
+ []
+
+[278]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P279  
+ []
+
+[279]
+Overfull \hbox (0.79924pt too wide) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/12 Q3P280  
+ []
+
+[280] (./quiz.aux) ) 
+Here is how much of TeX's memory you used:
+ 12530 strings out of 476025
+ 260885 string characters out of 5790017
+ 1854388 words of memory out of 5000000
+ 32801 multiletter control sequences out of 15000+600000
+ 512585 words of font info for 33 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 102i,6n,104p,413b,728s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr12.pfb>
+Output written on quiz.pdf (280 pages, 171378 bytes).
+PDF statistics:
+ 916 PDF objects out of 1000 (max. 8388607)
+ 625 compressed objects within 7 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+
