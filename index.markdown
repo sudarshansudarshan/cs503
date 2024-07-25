@@ -4,7 +4,7 @@
 #testing
 layout: home
 ---
-This is a homepage for the course **Discrete Mathematics**. An important document is the [handbook](/discretemath/handbook/). Ensure that you read this document completely. Note that the [FAQ](/discretemath/faq/) section of the handbook will keep growing, Make sure you look it up once in a while.  
+This is a homepage for the course **Machine Learning**. An important document is the [handbook](/discretemath/handbook/). Ensure that you read this document completely. Note that the [FAQ](/discretemath/faq/) section of the handbook will keep growing, Make sure you look it up once in a while.  
 
 <!-- 
 
