@@ -14,12 +14,6 @@ toc: true
 | Name                      | Email                     |
 | -------------------------| -------------------------|
 | S. R. Sudarshan Iyengar (Instructor)  | sudarshan@iitrpr.ac.in    |
-<!--| Sakshi Sharma (Head TA) | sakshi.23csz0006@iitrpr.ac.in |
-| Harshith Kumar Yadav | 2023csz0002@iitrpr.ac.in |
-| Rajtilak Pal | 2022aim1010@iitrpr.ac.in |
-| Mohd Arif Pandit | mohd.22csz0017@iitrpr.ac.in |
-| Utkarsh Suryaman | 2022aim1015@iitrpr.ac.in |
-| Piyush Aggarwal | 2022aim1008@iitrpr.ac.in |-->
 
 
 
@@ -40,19 +34,13 @@ toc: true
 
 <p style="text-align: justify;">
 
-<!--Mathematical Foundations for Computing, aka Discrete Math, involves cherry picked bunch of topics from different branches of mathematics that aid in understanding computing at a fundamental level. While the syllabus for this subject from the past 4 decades mainly involved topics that helps a student understand subjects such as data structures and algorithms at a level deeper than concepts related to high level programming. But the past decade has changed the trajectory of computing from algorithms that can be executed on a computer to algorithms that can think, learn and infer. This has led to the distillation of the syllabus for this subject from various other mathematical ideas from physics and continuous mathematics. Our course will have a two fold approach: 1. We will incorporate all the modern ideas 2. We will take an applied approach to the subject without compromising on the rigour. The first few lectures will emphasize heavily on the foundations of set theory, logic, counting, graph theory, number theory, probability and comibnatorics. Once the students are comfortable with the basics, we will buckle up for a whirlwind tour of some of the great ideas that has taken the computing world on a storm. We will discuss about 20-25 ideas in computer science that are mathematically deep and have proven to be the milestones in the subject. We will start with the motivational questions, provide intuitive answers and supply rigorous reasoning to close the loop.  
--->
-
 </p>
 
 # Expectations from the course
 
 <p style="text-align: justify;">
 
-<!--
-Our primary goal is to empower students with the essential skills to comprehend and navigate the intricate mathematical underpinnings of computer science. We emphasize a skill-based approach, which allows students to develop a deep understanding of the subject matter without resorting to rote memorization. The key to building confidence and proficiency in this subject lies in consistent practice; there are no shortcuts to mastering the art of problem-solving. To ensure your success, we strongly encourage regular attendance and active participation in the class, as well as diligent preparation for tests and quizzes. 
 </p>
--->
 
 # Grading
 
@@ -124,12 +112,14 @@ Note that a superior rank will include the perks of all the lower ranks too. For
 The course committee will comprise of the following members:
 will be updated soon...
 
-<!--| Name            | Email                          |
+<!--
+| Name            | Email                          |
 |-----------------|--------------------------------|
 | Navneet (Chair) | 2023csb1137@iitrpr.ac.in       |
 | Dhruv Yadav     | 2023csb1118@iitrpr.ac.in       |
 | Sumit Singh     | 2023csb1166@iitrpr.ac.in       |
 | Gitansh Bansal  | 2023mcb1294@iitrpr.ac.in       |
 | Bhavika Sharma  | 2023mcb1290@iitrpr.ac.in       |
-| Hartik Arora    | 2022csb1314@iitrpr.ac.in       |-->
+| Hartik Arora    | 2022csb1314@iitrpr.ac.in       |
+-->
 
