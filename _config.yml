@@ -34,7 +34,7 @@ header_pages:
   - Oceanverse.md
 
 markdown: kramdown
-title: CS101
+title: CS503
 email: sudarshansudarshan@gmail.com 
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
