@@ -80,22 +80,17 @@ The instructor will strictly follow the above rule to assign grades based on abs
 |Major|Final Exam (Open Book)|30|
 |In Quizzes and Tests, we will consider the top 90% of the attempts. |||
 
-**Deal Breaker**
-
-| Type  | Marks |
-| ----- | ----- |
-| Engagement Quiz | 10    |
-| Test | 10    |
-
 <!-- We will consider the <u>maximum of Track 1 and Track 2</u>. -->
+
 
 # Securing a Pass Grade
 
-Complete the Engagement quiz and you will be assured of at least a D in the course.
+Complete the Engagement quiz take up a viva voce and you will be assured of at least a D in the course.
 
 # Project
 
 We will soon be announcing the details over an email and we will populate this section after that.  
+<!--
 
 # Health of the Class
 We will be maintaining a [google sheet](https://docs.google.com/spreadsheets/d/12qDBpHmaFjYkjZ0mkHDWFJhtg4ZauA3eTo0NPHRyrUM/edit#gid=0)  which will be updated after every class. In case the health crosses some pre-defined thresholds, there will be perks and incentives that the entire class will enjoy. The details on the points vs perks:
@@ -103,7 +98,6 @@ We will be maintaining a [google sheet](https://docs.google.com/spreadsheets/d/1
 
 | Points                |Rank                                | Perks  |
 |-----------------------|------------------------------------|--------|
-| 60 or above  | Rank 6 | Maximum of Track 1 and Track 2 will be considered|
 | 80 or above  | Rank 5 | 80 % of quiz and test will be considered|
 | 90 or above  | Rank 4 | Track 3, which is only final exam marks. We will consider the best of three tracks|
 |100 or above  | Rank 3 | 66.66% of quiz and test will be considered|
@@ -112,6 +106,8 @@ We will be maintaining a [google sheet](https://docs.google.com/spreadsheets/d/1
 
 
 Note that a superior rank will include the perks of all the lower ranks too. For instance, if you are rank 1, then you will get the perks of all the 6 ranks. If you are rank 2, then you get the perks of rank 2-6 and so on.
+
+-->
 
 # Class Committee
 
