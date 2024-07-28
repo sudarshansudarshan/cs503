@@ -91,7 +91,6 @@ Complete the Engagement quiz take up a viva voce and you will be assured of at l
 
 We will soon be announcing the details over an email and we will populate this section after that.  
 <!--
-
 # Health of the Class
 We will be maintaining a [google sheet](https://docs.google.com/spreadsheets/d/12qDBpHmaFjYkjZ0mkHDWFJhtg4ZauA3eTo0NPHRyrUM/edit#gid=0)  which will be updated after every class. In case the health crosses some pre-defined thresholds, there will be perks and incentives that the entire class will enjoy. The details on the points vs perks:
 
@@ -106,7 +105,6 @@ We will be maintaining a [google sheet](https://docs.google.com/spreadsheets/d/1
 
 
 Note that a superior rank will include the perks of all the lower ranks too. For instance, if you are rank 1, then you will get the perks of all the 6 ranks. If you are rank 2, then you get the perks of rank 2-6 and so on.
-
 -->
 
 # Class Committee
