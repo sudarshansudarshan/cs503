@@ -28,11 +28,16 @@ toc: true
 - **Wednesday**
   - 9:00 - 10:00
 
+# Lab Sessions
+
+To be announced soon...
 
 
 # Introduction
 
 <p style="text-align: justify;">
+
+Machine learning has revolutionized the field of computing, transforming algorithms from static processes to dynamic entities capable of learning, adapting, and inferring. This course, designed to reflect the rapid advancements and growing importance of machine learning, takes a comprehensive and applied approach to this fascinating subject. Our goal is to blend modern methodologies with rigorous mathematical foundations, ensuring a deep and practical understanding of machine learning. We emphasize an applied approach throughout the course, ensuring that theoretical concepts are consistently linked to real-world applications. Students will engage in hands-on projects and practical exercises that reinforce the material covered in lectures.
 
 </p>
 
@@ -40,6 +45,7 @@ toc: true
 
 <p style="text-align: justify;">
 
+Our primary goal is to equip students with the essential skills to understand and navigate the complex mathematical foundations of machine learning. We emphasize a skill-based approach to foster deep comprehension over rote memorization. Success in this course requires consistent practice, regular attendance, active participation, and diligent preparation for assignments and exams. Engage deeply with hands-on projects and practical exercises, and take initiative in exploring additional resources and seeking help when needed. Your commitment to these expectations will build the confidence and proficiency necessary to excel in this transformative field.
 </p>
 
 # Grading
@@ -81,7 +87,7 @@ The instructor will strictly follow the above rule to assign grades based on abs
 | Engagement Quiz | 10    |
 | Test | 10    |
 
-We will consider the <u>maximum of Track 1 and Track 2</u>. 
+<!-- We will consider the <u>maximum of Track 1 and Track 2</u>. -->
 
 # Securing a Pass Grade
 
