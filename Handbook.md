@@ -128,6 +128,15 @@ We will be maintaining a [google sheet](https://docs.google.com/spreadsheets/d/1
 Note that a superior rank will include the perks of all the lower ranks too. For instance, if you are rank 1, then you will get the perks of all the 6 ranks. If you are rank 2, then you get the perks of rank 2-6 and so on.
 
 
+# Code of Conduct
+We expect that students do not indulge in any kind of malpractice/plagiarism or any other type of activity as discussed in the institute handbook. It is mandatory that you go through the handbook and agree to the expectations presented there.
+
+- We expect you to maintain decorum in the class at all times.
+- The classes and labs will start on time, and we will provide the first 120 seconds for you to enter, after which there will be no entry to the class. If you knock on the door, it will result in a penalty of 1 mark and/or a deduction of points.
+- Usage of cell phones in the classroom is prohibited unless the instructor/TA has explicitly stated that you can use them for a classroom activity.
+- Carrying your cell phone during labs is strictly prohibited.
+- Read the Handbook and FAQ carefully before you contact the TAs/Instructor for any of your concerns.
+
 
 # Class Committee
 
