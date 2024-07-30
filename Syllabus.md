@@ -15,7 +15,12 @@ The following syllabus will be covered as part of this course. The syllabus is j
 | 4       | Introduction to Unsupervised Learning - Representation learning - PCA        |
 | 5       | Unsupervised Learning Clustering - K-means/Kernel K-means     |
 | 6       | Unsupervised Learning - Estimation - Recap of MLE + Bayesian estimation, Gaussian Mixture Model - EM algorithm. 			     |
-| 7       | Supervised Learning - Regression - Least Squares; Bayesian view |
+| 7       | Supervised Learning - Regression - Least Squares; Bayesian view; Regression - Ridge/LASSO |
+| 8       | Supervised Learning - Classification - K-NN, Decision tree      |
+| 9       | Supervised Learning - Classification - Generative Models - Naive Bayes      |
+| 10      | Discriminative Models - Perceptron; Logistic Regression      |
+| 11      | Support Vector Machines      |
+| 12      | Artificial Neural networks: Multiclass classification.      |
 
 
 
