@@ -48,6 +48,16 @@ Machine learning has revolutionized the field of computing, transforming algorit
 Our primary goal is to equip students with the essential skills to understand and navigate the complex mathematical foundations of machine learning. We emphasize a skill-based approach to foster deep comprehension over rote memorization. Success in this course requires consistent practice, regular attendance, active participation, and diligent preparation for assignments and exams. Engage deeply with hands-on projects and practical exercises, and take initiative in exploring additional resources and seeking help when needed. Your commitment to these expectations will build the confidence and proficiency necessary to excel in this transformative field.
 </p>
 
+
+# Class Structure
+
+The classes will be conducted in a flip mode, integrating both recorded lectures and physical classes. You will be enrolled in an LMS portal(MASAI portal), which will serve as your dashboard. All course content will be available there.
+
+The dashboard will contain:
+
+	•	Video lectures, which are mandatory to watch before attending the physical classes.
+
+
 # Grading
 
 You are gauranteed to get a grade based on your absolute total as described below :
@@ -80,17 +90,41 @@ The instructor will strictly follow the above rule to assign grades based on abs
 |Major|Final Exam (Open Book)|30|
 |In Quizzes and Tests, we will consider the top 90% of the attempts. |||
 
-<!-- We will consider the <u>maximum of Track 1 and Track 2</u>. -->
+
+**Evaluation - Track 2**
+
+| Type  |                      | Marks |
+| ----- | -------------------- | ----- |
+| Minor | Mid Term Theory Exam | 50    |
+| Major | Final Theory Exam    | 50    |
+
+We will consider the <u>maximum of Track 1 and Track 2</u>.
 
 
 # Securing a Pass Grade
 
-Complete the Engagement quiz take up a viva voce and you will be assured of at least a D in the course.
+Complete the Quiz and Test regularly you will be assured of at least a D in the course.
 
 # Project
 
-We will soon be announcing the details over an email and we will populate this section after that.  
+will be updated soon...
 
+
+# Health of the Class
+We will be maintaining a [google sheet](https://docs.google.com/spreadsheets/d/12qDBpHmaFjYkjZ0mkHDWFJhtg4ZauA3eTo0NPHRyrUM/edit#gid=0)  which will be updated after every class. In case the health crosses some pre-defined thresholds, there will be perks and incentives that the entire class will enjoy. The details on the points vs perks:
+
+
+| Points                |Rank                                | Perks  |
+|-----------------------|------------------------------------|--------|
+| 60 or above  | Rank 6 | Maximum of Track 1 and Track 2 will be considered|
+| 80 or above  | Rank 5 | 80 % of quiz and test will be considered|
+| 90 or above  | Rank 4 | Track 3, which is only final exam marks. We will consider the best of three tracks|
+|100 or above  | Rank 3 | 66.66% of quiz and test will be considered|
+|120 or above  | Rank 2 | bonus of 5 marks|
+|140 or above  | Rank 1 | Grade Upgrade|
+
+
+Note that a superior rank will include the perks of all the lower ranks too. For instance, if you are rank 1, then you will get the perks of all the 6 ranks. If you are rank 2, then you get the perks of rank 2-6 and so on.
 
 
 
