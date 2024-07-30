@@ -32,6 +32,7 @@ header_pages:
   - Handbook.md
   - Faq.md
   - Oceanverse.md
+  - Syllabus.md
 
 markdown: kramdown
 title: CS503
