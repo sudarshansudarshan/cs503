@@ -55,7 +55,7 @@ The classes will be conducted in a flip mode, integrating both recorded lectures
 
 The dashboard will contain:
 
-	•	Video lectures, which are mandatory to watch before attending the physical classes.
+- **Video lectures**: These are mandatory to watch before attending the physical classes.
 
 
 # Grading
