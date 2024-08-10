@@ -59,6 +59,12 @@ The dashboard will contain:
 - **Tests**: These will be proctored.
 
 
+### Credentials for flip learning portal. 
+- Portal: students.masaischool.com
+- Email: The one that you used to register for the course.
+- Password: Use Forget password, and you'll get an email to enter a new password
+
+
 # Grading
 
 You are gauranteed to get a grade based on your absolute total as described below :
@@ -114,20 +120,6 @@ We will have a Kaggle competition as a project, details will be announced soon..
 # Health of the Class
 The instructor will observe the health of the class and give the ranking to the class accordingly. Note that the ranking will be decided on the overall performance of the course.
 
-
-|Rank                                | Perks  |
-|------------------------------------|--------|
-| Rank 6 | Maximum of Track 1 and Track 2 will be considered|
-| Rank 5 | 80 % of quiz and test will be considered|
-| Rank 4 | Track 3, which is only final exam marks. We will consider the best of three tracks|
-| Rank 3 | 66.66% of quiz and test will be considered|
-| Rank 2 | bonus of 5 marks|
-| Rank 1 | Grade Upgrade|
-
-The ranking will be decided by the instructor.
-
-
-Note that a superior rank will include the perks of all the lower ranks too. For instance, if you are rank 1, then you will get the perks of all the 6 ranks. If you are rank 2, then you get the perks of rank 2-6 and so on.
 
 
 # Code of Conduct
