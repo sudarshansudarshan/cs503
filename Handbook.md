@@ -60,7 +60,7 @@ The dashboard will contain:
 
 
 ### Credentials for Flip Learning Portal. 
-- Portal: [students.masaischool.com](students.masaischool.com)
+- Portal: [students.masaischool.com](https://students.masaischool.com/)
 - Email: The one that you used to register for the course.
 - Password: Use Forget password, and you'll get an email to enter a new password
 
@@ -85,7 +85,6 @@ The instructor will strictly follow the above rule to assign grades based on abs
 </p>
 # Evaluation
 
-**Evaluation - Track 1**
 
 | Type |  |Marks|
 |--|--|--|
@@ -97,15 +96,6 @@ The instructor will strictly follow the above rule to assign grades based on abs
 |Major|Final Exam (Open Book)|30|
 |In Quizzes and Tests, we will consider the top 90% of the attempts. |||
 
-
-**Evaluation - Track 2**
-
-| Type  |                      | Marks |
-| ----- | -------------------- | ----- |
-| Minor | Mid Term Theory Exam | 50    |
-| Major | Final Theory Exam    | 50    |
-
-We will consider the <u>maximum of Track 1 and Track 2</u>.
 
 
 # Securing a Pass Grade
