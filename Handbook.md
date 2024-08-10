@@ -59,8 +59,8 @@ The dashboard will contain:
 - **Tests**: These will be proctored.
 
 
-### Credentials for flip learning portal. 
-- Portal: students.masaischool.com
+### Credentials for Flip Learning Portal. 
+- Portal: [students.masaischool.com](students.masaischool.com)
 - Email: The one that you used to register for the course.
 - Password: Use Forget password, and you'll get an email to enter a new password
 
