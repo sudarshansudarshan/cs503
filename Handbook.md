@@ -57,6 +57,7 @@ The dashboard will contain:
 
 - **Video lectures**: These are mandatory to watch before attending the physical classes.
 - **Tests**: These will be proctored.
+- **Portal Demo**: [Demo](https://drive.google.com/file/d/1uxy1N2aWXIPG7l7Imbu9MWbV5MfFf6cw/view?usp=sharing)
 
 
 ### Credentials for Flip Learning Portal. 
