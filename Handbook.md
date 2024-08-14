@@ -14,6 +14,10 @@ toc: true
 | Name                      | Email                     |
 | -------------------------| -------------------------|
 | S. R. Sudarshan Iyengar (Instructor)  | sudarshan@iitrpr.ac.in    |
+| Sweta Dey (Head TA)  | sweta.20csz0016@iitrpr.ac.in    |
+| Yogesh Kumar (TA)  | yogesh.23csz0014@iitrpr.ac.in    |
+| Sushil (TA)  | sushil.20csz0021@iitrpr.ac.in    |
+| Yogesh Rathia (TA)  | 2023csm1022@iitrpr.ac.in    |
 
 
 
@@ -68,7 +72,7 @@ The dashboard will contain:
 
 # Grading
 
-You are gauranteed to get a grade based on your absolute total as described below :
+You are guaranteed to get a grade based on your absolute total as described below :
 
 | Score Range  | Grade Number |
 |--------------|--------------|
@@ -89,19 +93,19 @@ The instructor will strictly follow the above rule to assign grades based on abs
 
 | Type |  |Marks|
 |--|--|--|
-|Quiz|Involves short duration and straightforward questions |10|
-|Test|Will be descriptive type questions indicative of the difficulty level in the exams. Proctored and Offline|10|
-|Lab Assignments|Prompt allowed Implementation of case studies with emphasis on one’s ability to think and apply|10|
-|Project|Project will be a well defined problem, common for all. We will soon be notifying you of the details. |10|
-|Minor|Mid Term Exam (Open Book)|30|
+|Quiz|Involves short-duration and straightforward questions. We will have in total 12 quizzes, the average of all the quizzes will be considered. |10|
+|Test|Will be descriptive-type questions indicative of the difficulty level of the exams. We will have in total 10 quizzes, the average of all the quizzes will be considered. |10|
+|Lab Assignments|Prompt allowed Implementation of case studies with emphasis on one’s ability to think and apply.|10|
+|Project|Project will be a well-defined problem, common to all. We will soon be notifying you of the details. |10|
+|Minor| Mid-Term Exam (Open Book)|30|
 |Major|Final Exam (Open Book)|30|
 |In Quizzes and Tests, we will consider the top 90% of the attempts. |||
 
 
-
 # Securing a Pass Grade
 
-Complete the Quiz and Test regularly you will be assured of at least a D in the course.
+Complete the Quizzes and Tests regularly, and you will be assured of at least a D in the course.
+
 
 # Project
 
