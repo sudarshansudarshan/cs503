@@ -93,8 +93,8 @@ The instructor will strictly follow the above rule to assign grades based on abs
 
 | Type |  |Marks|
 |--|--|--|
-|Quiz|Involves short-duration and straightforward questions. We will have in total 12 quizzes, the average of all the quizzes will be considered. |10|
-|Test|Will be descriptive-type questions indicative of the difficulty level of the exams. We will have in total 10 quizzes, the average of all the quizzes will be considered. |10|
+|Quiz|Involves short-duration and straightforward questions. |10|
+|Test|Will be descriptive-type questions indicative of the difficulty level of the exams. |10|
 |Lab Assignments|Prompt allowed Implementation of case studies with emphasis on one’s ability to think and apply.|10|
 |Project|Project will be a well-defined problem, common to all. We will soon be notifying you of the details. |10|
 |Minor| Mid-Term Exam (Open Book)|30|
@@ -104,7 +104,7 @@ The instructor will strictly follow the above rule to assign grades based on abs
 
 # Securing a Pass Grade
 
-Complete the Quizzes and Tests regularly, and you will be assured of at least a D in the course.
+Complete the Quizzes and Tests regularly, secure marks, and you will be assured of at least a D in the course.
 
 
 # Project
