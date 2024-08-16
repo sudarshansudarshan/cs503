@@ -11,12 +11,14 @@ permalink: /oceanverse/
 
 # Module 0
 
-* Plot the points $$(2,3)$$ and $$(6,9)$$ and find the distance between them without using the formula for distance.  
+* Create two points A and B
 
-* Plot two vectors $$u=⟨3,−2⟩$$ and $$v=⟨−1,5⟩$$.  
+* Plot the vectors for the two points. 
 
-* Find the angle between them.  
+* Create a unit circle.  
 
-* Construct a perpendicular bisector of a given segment whose end points are $$(0,6)$$ and $$(6,0)$$.  
+* Find the intersection points of the vector A and vector B.
 
-* Plot line $$y=3x$$.  
+* Find the dot product for these two new intersected vectors.
+
+* Try changing the angle and see how the dot product changes.
