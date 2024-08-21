@@ -8,76 +8,81 @@ permalink: /galaxy/
 * TOC
 {:toc}
 
-### 1. Birthday Paradox
-Given a bunch of 30 students in a class, there is a high chance that you have 2 people with the same birthday. Instead of 30, if the class has n students, what are the chances that you will find two people with the same birthday? 
 
->Try writing a piece of python code which plots the probability Vs n 
+# Least Squares
 
-We observe that the probability of we not having two people with the same birthday in a class of $$n$$ people is given by : 
+## Subjects Example
 
-$$\frac{365}{365}.\frac{364}{365}.\frac{363}{365}\cdots \frac{(365-n)}{365} $$   
+Let's dive into an interesting question: What does it mean to take points in 3D and project them onto a 2D plane? Imagine you have a table with marks in Physics, Math, and Programming.
 
-(There is a minor error in the above product. Can you identify?)
+\[ \text{Programming} = \alpha \cdot \text{Physics} + \beta \cdot \text{Math} + \text{Some noise} \]
 
-Let us call this $$f(n)$$.
+Now, if you're given the marks in Physics, Math, and Programming, can you plot them on a plane? What would that look like?
 
-$$f(n)=\left({1-\frac{0}{365}}\right).\left({1-\frac{1}{365}}\right).\left({1-\frac{2}{365}}\right)... \left({1-\frac{n}{365}} \right) $$
+Observe the following table:
 
-We know that $$\left( 1-x\right)\approx e^{-x}$$
+![Marks in Physics, Math, and Programming](image1.png)
 
+Take a look at this plot. You'll notice that not all the points lie perfectly on the plane, but they are very close to it. This suggests that we can approximate these points using this plane.
 
-Therefore, 
+![3D Points Approximated by a Plane](image5.png)
 
-$$f(n) \approx e^{\frac{-1}{365}}.e^{\frac{-2}{365}}.e^{\frac{-3}{365}}...e^{\frac{-n}{365}} $$   
+But how do we find the best possible plane? Well, to do that, we need to minimize the distance of the points from the plane.
 
-$$f(n)\approx e^{\frac{-n(n+1)/2}{365}}$$
+![Minimizing the Distance from the Plane](image6.png)
 
-This simply tells us that for around 50 students in a class
-$$f(50)\approx e^{\frac{-50(51)/2}{365}}=0.03$$
+Can you think of how we might achieve that? How would you go about finding the plane that best fits the data?
 
-The probability of we finding two people with the same birthday is $$0.97$$
+## Projection of Points
 
-- Can you observe this empirically for 50 students? is the probability of success 0.97?
-- Can you think of some application of this idea?
-- When you put 50 balls in 365 baskets, uniformly at random, do you think that you can surely find a basket with atleast 2 balls? 
-- What do you have to say about birthday paradox's relevance on planet Neptune where one year comprises of 60,000 days :-) ?
+Now, let's shift our focus to the concept of projection. Observe the following graph: some points lie on or close to a plane.
 
+![Points Lying Close to a Plane](image2.png)
 
+But what if we want to find the shortest distance of a specific point, say point A, from a given line like \(y = \frac{x}{2}\)? How would you do that?
 
-### 2. Finding $$\sqrt 10$$ 
+The answer is simple: it's the perpendicular drop from point A onto the line.
 
-Finding square root of 10 is equivalent to finding the root of the equation     
+![Perpendicular Drop from Point A to the Line](image3.png)
 
-$$x^2 - 10 =0 $$
+This is known as the projection of vector \(p\) onto the line \(y = \frac{x}{2}\).
 
-Note that one can observe that the root lies between 3 and 4, simply because considering $$ f(x) = x^2 - 10 $$, $$f(3)<0$$ and $$f(4)>0$$.
+But how can you figure out a generic method for finding this projection?
 
-This means the answer lies between 3 and 4.
+The dot product offers a straightforward approach. Consider a point \(v\) on this line and take the dot product of \(v\) with \(p\). For instance, if \(v = (1, 2)\), the dot product gives us the necessary information to determine the projection.
 
-One can further observe that the root lies between 3 and 3.5 and not between 3.5 and 4.
+Would you like to see the math behind it? Here's how it works:
 
-We can keep reducing the size of the interval this way. 
+\[ v \cdot (\alpha v - b) = 0 \]
 
-Everytime, we reduce the interval by half. 
+\[ \alpha \cdot v^{T}v = v^{T}b \]
 
-It is easy to see that we can find the value of $$\sqrt{10}$$ with increased accuracy with time.
+\[ \alpha = \frac{v^{T}b}{v^{T}v} \]
 
-**Observe: The rate at which we converge to the answer is logarithmic (why?)**
+Substituting the values:
 
-### 3. Finding GCD
-``` python
-def gcd(a,b):
-	if (a<b):
-		return gcd(b,a)
-	else:
-		if (b==0):
-			return a
-		else:
-			return gcd(b,a%b)
-```
+\[ \alpha = \frac{\begin{bmatrix} 2 & 1 \end{bmatrix} \begin{bmatrix} 2 \\ 3 \end{bmatrix}}{\begin{bmatrix} 2 & 1 \end{bmatrix} \begin{bmatrix} 2 \\ 1 \end{bmatrix}} = \frac{7}{5} = 1.4 \]
 
-Note that the above snippet of code finds the GCD of two numbers in lightening speed. It only takes logarithm in the $$ min(a,b) $$.
+So, the projection of point A onto the line \(y\) is given by:
 
-**Reason: Every step leads to a reduction in one of the numbers by half**
+\[ B = (\alpha \cdot 2, \alpha \cdot 1) = (2.8, 1.4) \]
 
+![Projection of Point A on the Line](image4.png)
 
+This is a simple yet powerful method. But there's more to it.
+
+Let's think about matrices. What if we take this concept further? Consider the equation:
+
+\[ A(A \cdot \bar{x} - b) = 0 \]
+
+To solve for \(\bar{x}\), we rearrange it as:
+
+\[ A^{T}A \bar{x} = A^{T}b \]
+
+\[ \bar{x} = (A^{T}A)^{-1} A^{T}b \]
+
+And then:
+
+\[ A \bar{x} = A(A^{T}A)^{-1} A^{T}b \]
+
+You see how everything falls into place, right? But here's a critical point: this works perfectly if \(A\) is invertible. Now, think about the real world—most matrices are invertible, aren’t they? So, we don’t usually have to worry about invertibility here. But what would happen if a matrix wasn't invertible? How would that affect our calculations?
