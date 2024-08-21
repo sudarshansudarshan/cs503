@@ -33,7 +33,7 @@ header_pages:
   - Faq.md
   - Oceanverse.md
   - Syllabus.md
-  - Notes.md
+  - Galaxy.md
 
 markdown: kramdown
 title: CS503
