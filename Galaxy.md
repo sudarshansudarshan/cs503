@@ -21,15 +21,15 @@ Now, if you're given the marks in Physics, Math, and Programming, can you plot t
 
 Observe the following table:
 
-![Marks in Physics, Math, and Programming](image1.png)
+![Marks in Physics, Math, and Programming](/machinelearning/assets/images/image1.png)
 
 Take a look at this plot. You'll notice that not all the points lie perfectly on the plane, but they are very close to it. This suggests that we can approximate these points using this plane.
 
-![3D Points Approximated by a Plane](image5.png)
+![3D Points Approximated by a Plane](/machinelearning/assets/images/image5.png)
 
 But how do we find the best possible plane? Well, to do that, we need to minimize the distance of the points from the plane.
 
-![Minimizing the Distance from the Plane](image6.png)
+![Minimizing the Distance from the Plane](/machinelearning/assets/images/image6.png)
 
 Can you think of how we might achieve that? How would you go about finding the plane that best fits the data?
 
@@ -37,13 +37,13 @@ Can you think of how we might achieve that? How would you go about finding the p
 
 Now, let's shift our focus to the concept of projection. Observe the following graph: some points lie on or close to a plane.
 
-![Points Lying Close to a Plane](image2.png)
+![Points Lying Close to a Plane](/machinelearning/assets/images/image2.png)
 
 But what if we want to find the shortest distance of a specific point, say point A, from a given line like \(y = \frac{x}{2}\)? How would you do that?
 
 The answer is simple: it's the perpendicular drop from point A onto the line.
 
-![Perpendicular Drop from Point A to the Line](image3.png)
+![Perpendicular Drop from Point A to the Line](/machinelearning/assets/images/image3.png)
 
 This is known as the projection of vector \(p\) onto the line \(y = \frac{x}{2}\).
 
@@ -67,7 +67,7 @@ So, the projection of point A onto the line \(y\) is given by:
 
 \[ B = (\alpha \cdot 2, \alpha \cdot 1) = (2.8, 1.4) \]
 
-![Projection of Point A on the Line](image4.png)
+![Projection of Point A on the Line](/machinelearning/assets/images/image4.png)
 
 This is a simple yet powerful method. But there's more to it.
 
