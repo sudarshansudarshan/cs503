@@ -71,10 +71,9 @@ The best approach is to minimize the number of tests while still accurately iden
 
 Can you figure out the minimum number of tests required for any number of samples, $$n$$? 
 
-It's $$\log(n)$$. This is where you can see the binary search in action!
+It's `log(n)`. This is where you can see the binary search in action!
 
 To make it even more efficient, you could experiment with different batch sizes, like grouping $$k$$ samples together instead of just 2. This could further reduce the number of tests required.
-
 
 
 ---
