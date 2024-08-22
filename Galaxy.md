@@ -10,9 +10,9 @@ permalink: /galaxy/
 {:toc}
 
 
-## Motivation for ML
+# Motivation for ML
 
-# HES-Subjects Example
+## HES-Subjects Example
 
 Let's start with a simple question: Given the marks of a student in English and Hindi, can we predict the marks they might get in Sanskrit? What if we try to see it as a linear combination? 
 
@@ -30,7 +30,7 @@ As the number of subjects increases, it becomes harder and harder to find the ri
 
 ---
 
-# Radio Example: Parameter Tuning
+## Radio Example: Parameter Tuning
 
 Let's take a trip back to the 1930s. Imagine you're tuning an old radio with a knob controller. To find the right station, you'd have to slowly tweak the knob, trying to tune into the clearest signal. So in a way, you were performing an algorithm to connect to the best station. 
 
@@ -42,7 +42,7 @@ You start with one direction, assess the output (in this case, the sound), and t
 
 ---
 
-# Binary Search: The Laptop Thief
+## Binary Search: The Laptop Thief
 
 Imagine you're given a 4K resolution video that runs for 4.5 hours. The video shows a study table, and at the beginning, there's a laptop on the table. But by the end of the video, the laptop is gone—someone has stolen it. Here's the challenge: you need to find the exact moment when the laptop was taken. But watching the entire 4.5 hours of footage seems impractical, doesn't it?
 
@@ -56,7 +56,7 @@ Why is this method so efficient? It's because you're using a binary search techn
 
 ---
 
-# COVID Testing: Minimizing the Number of Tests (BST Method)
+## COVID Testing: Minimizing the Number of Tests (BST Method)
 
 Consider a scenario where a clinic needs to test a group of 10 people for COVID-19. Individual testing is expensive, so the clinic needs an efficient strategy to minimize costs. How can they do this?
 
@@ -78,7 +78,7 @@ To make it even more efficient, you could experiment with different batch sizes,
 
 ---
 
-# Finding $$\sqrt{11}$$ 
+## Finding $$\sqrt{11}$$ 
 
 Finding the square root of 11 is equivalent to finding the root of the equation     
 
@@ -150,7 +150,7 @@ print(final_distribution, percentage_distribution)
 
 Notice how the distribution changes with each iteration. Eventually, you'll see that it stops changing—it converges.
 
-### Matrix Method
+## Matrix Method
 
 There's another way to approach this: through matrix operations.
 
@@ -238,11 +238,7 @@ $$
 $$
 
 
-
-
-
-
-### Application of Markov Matrices: Opening a New Restaurant
+## Application of Markov Matrices: Opening a New Restaurant
 
 Imagine you want to start a new restaurant in the city. Where should you situate it? Near the railway station? Near the IT hub? Near schools? 
 
@@ -257,8 +253,8 @@ The location with the highest steady-state probability is where people are most 
 ---
 
 
-## Least Squares
-# Subjects Example
+# Least Squares
+## Subjects Example
 
 Let's dive into an interesting question: What does it mean to take points in 3D and project them onto a 2D plane? Imagine you have a table with marks in Physics, Math, and Programming.
 
@@ -284,7 +280,7 @@ Can you think of how we might achieve that? How would you go about finding the p
 
 ---
 
-# Projection of Points
+## Projection of Points
 
 Now, let's shift our focus to the concept of projection. Observe the following graph: some points lie on or close to a plane.
 
@@ -359,7 +355,7 @@ You see how everything falls into place, right? But here's a critical point: thi
 ---
 
 
-## QR Factorization
+# QR Factorization
 
 
 ![QR Factorization](/machinelearning/assets/images/note1.png)
