@@ -229,6 +229,8 @@ EVD is Eigen Valued Decomposition
 
 We know that $$A v= \lambda v$$ where $$v$$ is the eigenvector
 
+
+<p align="left">
 $$\therefore 
 
 A 
@@ -262,12 +264,12 @@ e_1 & e_2 & e_3 & \dots & e_n \\
 
 \begin{bmatrix} 
 \lambda_1 & 0 & 0 & \dots & 0 \\
-e_1 & \lambda_2 & 0 & \dots & 0 \\ 
+0 & \lambda_2 & 0 & \dots & 0 \\ 
 0 & 0 & 0 & \dots & \lambda_n \\
 \end{bmatrix}
 
 $$
-
+</p>
 
 
 
