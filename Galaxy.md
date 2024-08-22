@@ -56,7 +56,7 @@ Why is this method so efficient? It's because you're using a binary search techn
 
 ---
 
-## 2. Finding $$\sqrt 11$$ 
+## 4. Finding $$\sqrt 11$$ 
 
 Finding the square root of 11 is equivalent to finding the root of the equation     
 
@@ -76,6 +76,7 @@ It is easy to see that we can find the value of $$\sqrt{11}$$ with increased acc
 
 **Observe: The rate at which we converge to the answer is logarithmic (why?)**
 **Reason: Every step leads to a reduction in one of the numbers by half**
+---
 
 
 ### Least Squares
