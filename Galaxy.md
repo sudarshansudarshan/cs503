@@ -159,7 +159,7 @@ $$
 Now, to predict the distribution after one iteration, you multiply the matrix with the vector:
 
 $$
-\text{New Vector} = 
+\text{New Distribution} = 
 \begin{pmatrix}
 0.7 & 0.5 \\
 0.3 & 0.5
@@ -176,16 +176,6 @@ $$
 $$
 
 What happens next? The transition matrix remains the same, but the initial vector changes to the new distribution.
-
-Here’s the vector after the first iteration:
-
-$$
-\text{Vector after iteration 1} = 
-\begin{pmatrix}
-700 \\
-300
-\end{pmatrix}
-$$
 
 By doing this for more iterations, you’ll notice that the distribution stops varying—it converges.
 
