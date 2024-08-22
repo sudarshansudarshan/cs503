@@ -69,13 +69,11 @@ The best approach is to minimize the number of tests while still accurately iden
 
 3. **Efficiency**: This method is highly efficient because it halves the search space in every iteration. The assistant only conducts the minimum number of tests necessary to identify the infected person(s).
 
-Can you figure out the minimum number of tests required for any number of samples, \( n \)? 
+Can you figure out the minimum number of tests required for any number of samples, $$n$$? 
 
-It's \( \log(n) \). This is where you can see binary search in action!
+It's $$\log(n)$$. This is where you can see the binary search in action!
 
-To make it even more efficient, you could experiment with different batch sizes, like grouping \( k \) samples together instead of just 2. This could further reduce the number of tests required.
-
-By applying these methods, whether you're trying to find the optimal restaurant location or minimize the number of COVID tests, you can make informed, data-driven decisions that save time and resources.
+To make it even more efficient, you could experiment with different batch sizes, like grouping $$k$$ samples together instead of just 2. This could further reduce the number of tests required.
 
 
 
