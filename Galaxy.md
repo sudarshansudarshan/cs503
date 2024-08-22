@@ -41,17 +41,17 @@ Now, let's shift our focus to the concept of projection. Observe the following g
 
 ![Points Lying Close to a Plane](/machinelearning/assets/images/image2.png)
 
-But what if we want to find the shortest distance of a specific point, say point A, from a given line like $$\( y = \frac{x}{2} \)$$? How would you do that?
+But what if we want to find the shortest distance of a specific point, say point A, from a given line like $$ y = \frac{x}{2} $$? How would you do that?
 
 The answer is simple: it's the perpendicular drop from point A onto the line.
 
 ![Perpendicular Drop from Point A to the Line](/machinelearning/assets/images/image3.png)
 
-This is known as the projection of vector $$\( p \)$$ onto the line $$\( y = \frac{x}{2} \)$$.
+This is known as the projection of vector $$ p $$ onto the line $$ y = \frac{x}{2} $$.
 
 But how can you figure out a generic method for finding this projection?
 
-The dot product offers a straightforward approach. Consider a point \( v \) on this line and take the dot product of $$\( v \)$$ with $$\( p \)$$. For instance, if $$\( v = (1, 2) \)$$, the dot product gives us the necessary information to determine the projection.
+The dot product offers a straightforward approach. Consider a point $$ v $$ on this line and take the dot product of $$ v $$ with $$ p $$. For instance, if $$ v = (1, 2) $$, the dot product gives us the necessary information to determine the projection.
 
 Would you like to see the math behind it? Here's how it works:
 
@@ -73,7 +73,7 @@ $$
 \alpha = \frac{\begin{bmatrix} 2 & 1 \end{bmatrix} \begin{bmatrix} 2 \\ 3 \end{bmatrix}}{\begin{bmatrix} 2 & 1 \end{bmatrix} \begin{bmatrix} 2 \\ 1 \end{bmatrix}} = \frac{7}{5} = 1.4
 $$
 
-So, the projection of point A onto the line $$\( y \)$$ is given by:
+So, the projection of point A onto the line $$ y $$ is given by:
 
 $$
 B = (\alpha \cdot 2, \alpha \cdot 1) = (2.8, 1.4)
@@ -89,7 +89,7 @@ $$
 A(A \cdot \bar{x} - b) = 0
 $$
 
-To solve for $$\( \bar{x} \)$$, we rearrange it as:
+To solve for $$ \bar{x} $$, we rearrange it as:
 
 $$
 A^T A \bar{x} = A^T b
@@ -111,4 +111,10 @@ You see how everything falls into place, right? But here's a critical point: thi
 # QR Factorization
 
 
+![QR Factorization](/machinelearning/assets/images/note1.png)
 
+![QR Factorization](/machinelearning/assets/images/note2.png)
+
+![QR Factorization](/machinelearning/assets/images/note3.png)
+
+![QR Factorization](/machinelearning/assets/images/note4.png)
