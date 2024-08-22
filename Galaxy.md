@@ -109,23 +109,20 @@ Yes, it will converge after some time. But do you understand why?
 To get a better understanding, you can write a program to see if this distribution converges over time. Here’s a simple code snippet to help you explore this:
 
 ```python
-# Initial distribution
-people = [1000, 0]
-
-# Transition matrix
-transition_matrix = [
-    [0.7, 0.5],
-    [0.3, 0.5]
-]
-
-# Perform iterations
-for i in range(10):  # Change 10 to more iterations to observe convergence
-    new_people = [
-        transition_matrix[0][0] * people[0] + transition_matrix[0][1] * people[1],
-        transition_matrix[1][0] * people[0] + transition_matrix[1][1] * people[1]
-    ]
-    people = new_people
-    print(f"Iteration {i+1}: {people}")
+import numpy as np
+A = np.array([[0.3, 0.5],[0.7, 0.5]]) # Transition matrix
+v = np.array([1000, 0]) # Initial distribution
+def iterate_until_convergence(A, v, tolerance=1e-6, max_iterations=10):
+    for _ in range(max_iterations):
+        v_next = A @ v
+        if np.allclose(v, v_next, atol=tolerance):
+            return v_next
+        v = v_next
+    return v
+final_distribution = iterate_until_convergence(A, v)
+total_population = np.sum(final_distribution)
+percentage_distribution = final_distribution / total_population * 100
+print(final_distribution, percentage_distribution)
 
 ```
 
