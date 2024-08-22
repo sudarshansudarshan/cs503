@@ -9,9 +9,9 @@ permalink: /galaxy/
 {:toc}
 
 
-# Motivation for ML
+## Motivation for ML
 
-## 1) HES-Subjects Example
+# 1) HES-Subjects Example
 
 Let's start with a simple question: Given the marks of a student in English and Hindi, can we predict the marks they might get in Sanskrit? What if we try to see it as a linear combination? 
 
