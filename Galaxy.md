@@ -224,7 +224,19 @@ Multiplying a matrix by a vector $$v$$ $$n$$ times is equivalent to raising the 
 ![EVD](/machinelearning/assets/images/EVD3.png)
 
 
+Now, do you realize the importance and power of eigenvectors? They can be used to find any power of $$A$$ in no time.
+
 Over time, this matrix multiplication will lead to a steady-state distribution, where further iterations will not change the result. This is the point of convergence.
+
+So for the above example, we get the final distribution to be:
+
+$$
+\begin{bmatrix}
+416.666368 \\
+583.333632
+\end{bmatrix}
+$$
+
 
 
 
