@@ -10,7 +10,7 @@ permalink: /galaxy/
 {:toc}
 
 
-### Motivation for ML
+## Motivation for ML
 
 # 1) HES-Subjects Example
 
@@ -79,9 +79,9 @@ It is easy to see that we can find the value of $$\sqrt{11}$$ with increased acc
 ---
 
 
-### Least Squares
+## Least Squares
 
-## Subjects Example
+# Subjects Example
 
 Let's dive into an interesting question: What does it mean to take points in 3D and project them onto a 2D plane? Imagine you have a table with marks in Physics, Math, and Programming.
 
@@ -105,7 +105,7 @@ But how do we find the best possible plane? Well, to do that, we need to minimiz
 
 Can you think of how we might achieve that? How would you go about finding the plane that best fits the data?
 
-## Projection of Points
+# Projection of Points
 
 Now, let's shift our focus to the concept of projection. Observe the following graph: some points lie on or close to a plane.
 
@@ -178,7 +178,7 @@ $$
 You see how everything falls into place, right? But here's a critical point: this works perfectly if \( A \) is invertible. Now, think about the real world—most matrices are invertible, aren’t they? So, we don’t usually have to worry about invertibility here. But what would happen if a matrix wasn't invertible? How would that affect our calculations?
 
 
-### QR Factorization
+## QR Factorization
 
 
 ![QR Factorization](/machinelearning/assets/images/note1.png)
