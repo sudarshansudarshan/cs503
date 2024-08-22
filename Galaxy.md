@@ -80,6 +80,137 @@ It is easy to see that we can find the value of $$\sqrt{11}$$ with increased acc
 ---
 
 
+# Markov Processes
+
+Let's start by looking at a simple Markov process involving two states: Happy and Stressed.
+
+![Markov Process with Two States: Happy and Stressed](markov1.png)
+
+In the figure above, we have two states: Happy and Stressed.
+
+Here’s what we know:
+- 70% of people in the Happy state will become Stressed after some time (one iteration), while 30% will stay Happy.
+- 50% of people in the Stressed state will become Happy after some time (one iteration), while 50% will stay Stressed.
+
+Now, consider an initial scenario where there are 1000 people in the Happy state and 0 in the Stressed state. What will the distribution of people be after several iterations? Will it remain the same?
+
+Let's try to do this for two iterations:
+
+![Distribution After Two Iterations](markov2.png)
+![Distribution After Two Iterations](markov3.png)
+![Distribution After Two Iterations](markov4.png)
+
+Do you notice how the distribution changes after two iterations?
+
+Will it keep changing, or will it eventually stabilize?
+
+Yes, it will converge after some time. But do you understand why?
+
+To get a better understanding, you can write a program to see if this distribution converges over time. Here’s a simple code snippet to help you explore this:
+
+```python
+# Initial distribution
+people = [1000, 0]
+
+# Transition matrix
+transition_matrix = [
+    [0.7, 0.5],
+    [0.3, 0.5]
+]
+
+# Perform iterations
+for i in range(10):  # Change 10 to more iterations to observe convergence
+    new_people = [
+        transition_matrix[0][0] * people[0] + transition_matrix[0][1] * people[1],
+        transition_matrix[1][0] * people[0] + transition_matrix[1][1] * people[1]
+    ]
+    people = new_people
+    print(f"Iteration {i+1}: {people}")
+
+```
+
+Notice how the distribution changes with each iteration. Eventually, you'll see that it stops changing—it converges.
+
+### Matrix Method
+
+There's another way to approach this: through matrix operations.
+
+Think of the probability of transitioning from one state to another as a matrix, and the initial distribution of people in both states as a vector.
+
+Here's what the matrix looks like:
+
+$$
+\text{Transition Matrix} = 
+\begin{pmatrix}
+0.7 & 0.5 \\
+0.3 & 0.5
+\end{pmatrix}
+$$
+
+Notice that the sum of the columns is 1.
+
+And here’s the initial distribution vector:
+
+$$
+\text{Initial Vector} = 
+\begin{pmatrix}
+1000 \\
+0
+\end{pmatrix}
+$$
+
+Now, to predict the distribution after one iteration, you multiply the matrix with the vector:
+
+$$
+\text{New Vector} = 
+\begin{pmatrix}
+0.7 & 0.5 \\
+0.3 & 0.5
+\end{pmatrix}
+\begin{pmatrix}
+1000 \\
+0
+\end{pmatrix}
+=
+\begin{pmatrix}
+700 \\
+300
+\end{pmatrix}
+$$
+
+What happens next? The transition matrix remains the same, but the initial vector changes to the new distribution.
+
+Here’s the vector after the first iteration:
+
+$$
+\text{Vector after iteration 1} = 
+\begin{pmatrix}
+700 \\
+300
+\end{pmatrix}
+$$
+
+By doing this for more iterations, you’ll notice that the distribution stops varying—it converges.
+
+So, to find the eventual distribution, would you keep performing matrix multiplications repeatedly?
+
+Observe carefully that we are doing repeated matrix multiplications here:
+
+$$
+A \cdot v = v'
+$$
+
+Over time, this matrix multiplication will lead to a steady-state distribution, where further iterations will not change the result. This is the point of convergence.
+
+
+
+
+
+
+
+
+
+
 
 ## Least Squares
 # Subjects Example
