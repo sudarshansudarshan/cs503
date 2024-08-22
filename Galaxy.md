@@ -1,4 +1,3 @@
----
 layout: page
 title: Galaxy 
 order: 5
@@ -9,15 +8,16 @@ permalink: /galaxy/
 {:toc}
 
 
-## Motivation for ML
+### Motivation for ML
 
-# 1) HES-Subjects Example
+## 1) HES-Subjects Example
 
 Let's start with a simple question: Given the marks of a student in English and Hindi, can we predict the marks they might get in Sanskrit? What if we try to see it as a linear combination? 
 
+![HES](/machinelearning/assets/images/English.png)
 
 
-Think about it like this—can we find a combination of English and Hindi marks that equals the Sanskrit marks? For example, could it be that:
+Think about it like this — can we find a combination of English and Hindi marks that equals the Sanskrit marks? For example, could it be that:
 
 - `2 * English + 5 * Hindi = Sanskrit`  
 - Or maybe `3 * English + 1 * Hindi = Sanskrit`?
@@ -54,9 +54,29 @@ Why is this method so efficient? It's because you're using a binary search techn
 
 ---
 
+## 2. Finding $$\sqrt 11$$ 
+
+Finding the square root of 11 is equivalent to finding the root of the equation     
+
+$$x^2 - 11 =0 $$
+
+Note that one can observe that the root lies between 3 and 4, simply because considering $$ f(x) = x^2 - 11 $$, $$f(3)<0$$ and $$f(4)>0$$.
+
+This means the answer lies between 3 and 4.
+
+One can further observe that the root lies between 3 and 3.5 and not between 3.5 and 4.
+
+We can keep reducing the size of the interval this way. 
+
+Every time, we reduce the interval by half. 
+
+It is easy to see that we can find the value of $$\sqrt{11}$$ with increased accuracy with time.
+
+**Observe: The rate at which we converge to the answer is logarithmic (why?)**
+**Reason: Every step leads to a reduction in one of the numbers by half**
 
 
-# Least Squares
+### Least Squares
 
 ## Subjects Example
 
@@ -155,7 +175,7 @@ $$
 You see how everything falls into place, right? But here's a critical point: this works perfectly if \( A \) is invertible. Now, think about the real world—most matrices are invertible, aren’t they? So, we don’t usually have to worry about invertibility here. But what would happen if a matrix wasn't invertible? How would that affect our calculations?
 
 
-# QR Factorization
+### QR Factorization
 
 
 ![QR Factorization](/machinelearning/assets/images/note1.png)
