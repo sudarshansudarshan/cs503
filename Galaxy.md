@@ -78,7 +78,7 @@ To make it even more efficient, you could experiment with different batch sizes,
 
 ---
 
-# Finding $$\sqrt 11$$ 
+# Finding $$\sqrt (11)$$ 
 
 Finding the square root of 11 is equivalent to finding the root of the equation     
 
@@ -166,7 +166,7 @@ $$
 \end{pmatrix}
 $$
 
-Notice that the sum of the columns is 1.
+_Notice that the sum of the columns is 1._
 
 And here’s the initial distribution vector:
 
@@ -197,19 +197,34 @@ $$
 \end{pmatrix}
 $$
 
-What happens next? The transition matrix remains the same, but the initial vector changes to the new distribution.
-
-By doing this for more iterations, you’ll notice that the distribution stops varying—it converges.
-
 So, to find the eventual distribution, would you keep performing matrix multiplications repeatedly?
 
-Observe carefully that we are doing repeated matrix multiplications here:
+$$
+A \cdot v_0 = v_1\\
+A \cdot v_1 = v_2\\
+$$
+.
+.
+.
+$$
+A \cdot v_{n-1} = v_n
+$$
+
+
+Notice that 
 
 $$
-A \cdot v = v'
+v_2 = A \cdot A \cdot v_0
 $$
+
+
+
+
+
 
 Over time, this matrix multiplication will lead to a steady-state distribution, where further iterations will not change the result. This is the point of convergence.
+
+
 
 
 
