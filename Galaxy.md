@@ -231,8 +231,8 @@ We know that $$A v= \lambda v$$ where $$v$$ is the eigenvector
 
 
 <p align="left">
-$$\therefore 
-
+$$
+\therefore 
 A 
 \begin{bmatrix} 
 | & | & | & \dots & | \\
@@ -244,11 +244,10 @@ e_1 & e_2 & e_3 & \dots & e_n \\
 | & | & | & \dots & | \\
 \lambda_1 e_1 & \lambda_2 e_2 & \lambda_3 e_3 & \dots & \lambda_n e_n \\ 
 | & | & | & \dots & | \\
-\end{bmatrix}\\
+\end{bmatrix}
+$$
 
-
-
-
+$$
 A 
 \begin{bmatrix} 
 | & | & | & \dots & | \\
@@ -261,15 +260,14 @@ e_1 & e_2 & e_3 & \dots & e_n \\
 e_1 & e_2 & e_3 & \dots & e_n \\ 
 | & | & | & \dots & | \\
 \end{bmatrix}
-
 \begin{bmatrix} 
 \lambda_1 & 0 & 0 & \dots & 0 \\
 0 & \lambda_2 & 0 & \dots & 0 \\ 
 0 & 0 & 0 & \dots & \lambda_n \\
 \end{bmatrix}
-
 $$
 </p>
+
 
 
 
