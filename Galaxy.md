@@ -56,6 +56,31 @@ Why is this method so efficient? It's because you're using a binary search techn
 
 ---
 
+# COVID Testing: Minimizing the Number of Tests (BST Method)
+
+Consider a scenario where a clinic needs to test a group of 10 people for COVID-19. Individual testing is expensive, so the clinic needs an efficient strategy to minimize costs. How can they do this?
+
+The best approach is to minimize the number of tests while still accurately identifying infected individuals. Here's how it can be done:
+
+1. **Initial Batch Testing**: The lab assistant divides the 10 test samples into two groups of 5. She then mixes the samples of each group and tests them in two separate test tubes.
+   - If the first batch tests positive, she knows that someone in this group is infected. The second batch, which tests negative, can be ignored—saving 5 tests!
+
+2. **Further Subdivision**: Now, the assistant takes the positive batch and divides it into smaller groups, perhaps 2 and 3 samples each, and tests them again. By following this process, she narrows down the infected individual(s).
+
+3. **Efficiency**: This method is highly efficient because it halves the search space in every iteration. The assistant only conducts the minimum number of tests necessary to identify the infected person(s).
+
+Can you figure out the minimum number of tests required for any number of samples, \( n \)? 
+
+It's \( \log(n) \). This is where you can see binary search in action!
+
+To make it even more efficient, you could experiment with different batch sizes, like grouping \( k \) samples together instead of just 2. This could further reduce the number of tests required.
+
+By applying these methods, whether you're trying to find the optimal restaurant location or minimize the number of COVID tests, you can make informed, data-driven decisions that save time and resources.
+
+
+
+---
+
 # Finding $$\sqrt 11$$ 
 
 Finding the square root of 11 is equivalent to finding the root of the equation     
@@ -188,6 +213,23 @@ A \cdot v = v'
 $$
 
 Over time, this matrix multiplication will lead to a steady-state distribution, where further iterations will not change the result. This is the point of convergence.
+
+
+
+### Application of Markov Matrices: Opening a New Restaurant
+
+Imagine you want to start a new restaurant in the city. Where should you situate it? Near the railway station? Near the IT hub? Near schools? 
+
+The best way to determine the ideal location is by using the Markov matrix technique. Here's the idea:
+
+By analyzing the movement of people throughout the day, you can figure out where the maximum number of people eventually gather. This will be the hotspot for your restaurant.
+
+Using a Markov matrix, you can model the probabilities of people moving from one location to another over time. As you apply the matrix iteratively, you'll see that the distribution of people converges to a steady state. 
+
+The location with the highest steady-state probability is where people are most likely to gather, making it the best spot for your restaurant. This method allows you to make a data-driven decision, increasing the chances of your restaurant's success.
+
+---
+
 
 
 ---
