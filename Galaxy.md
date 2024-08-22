@@ -84,7 +84,7 @@ It is easy to see that we can find the value of $$\sqrt{11}$$ with increased acc
 
 Let's start by looking at a simple Markov process involving two states: Happy and Stressed.
 
-![Markov Process with Two States: Happy and Stressed](markov1.png)
+![Markov Process with Two States: Happy and Stressed](/machinelearning/assets/images/markov1.png)
 
 In the figure above, we have two states: Happy and Stressed.
 
@@ -96,9 +96,9 @@ Now, consider an initial scenario where there are 1000 people in the Happy state
 
 Let's try to do this for two iterations:
 
-![Distribution After Two Iterations](markov2.png)
-![Distribution After Two Iterations](markov3.png)
-![Distribution After Two Iterations](markov4.png)
+![Distribution After Two Iterations](/machinelearning/assets/images/markov2.png)
+![Distribution After Two Iterations](/machinelearning/assets/images/markov3.png)
+![Distribution After Two Iterations](/machinelearning/assets/images/markov4.png)
 
 Do you notice how the distribution changes after two iterations?
 
@@ -203,7 +203,7 @@ $$
 Over time, this matrix multiplication will lead to a steady-state distribution, where further iterations will not change the result. This is the point of convergence.
 
 
-
+---
 
 
 
