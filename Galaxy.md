@@ -12,7 +12,7 @@ permalink: /galaxy/
 
 ## Motivation for ML
 
-# 1) HES-Subjects Example
+# HES-Subjects Example
 
 Let's start with a simple question: Given the marks of a student in English and Hindi, can we predict the marks they might get in Sanskrit? What if we try to see it as a linear combination? 
 
@@ -30,7 +30,7 @@ As the number of subjects increases, it becomes harder and harder to find the ri
 
 ---
 
-# 2) Radio Example: Parameter Tuning
+# Radio Example: Parameter Tuning
 
 Let's take a trip back to the 1930s. Imagine you're tuning an old radio with a knob controller. To find the right station, you'd have to slowly tweak the knob, trying to tune into the clearest signal. So in a way, you were performing an algorithm to connect to the best station. 
 
@@ -42,7 +42,7 @@ You start with one direction, assess the output (in this case, the sound), and t
 
 ---
 
-# 3) Binary Search: The Laptop Thief
+# Binary Search: The Laptop Thief
 
 Imagine you're given a 4K resolution video that runs for 4.5 hours. The video shows a study table, and at the beginning, there's a laptop on the table. But by the end of the video, the laptop is gone—someone has stolen it. Here's the challenge: you need to find the exact moment when the laptop was taken. But watching the entire 4.5 hours of footage seems impractical, doesn't it?
 
@@ -56,7 +56,7 @@ Why is this method so efficient? It's because you're using a binary search techn
 
 ---
 
-# 4) Finding $$\sqrt 11$$ 
+# Finding $$\sqrt 11$$ 
 
 Finding the square root of 11 is equivalent to finding the root of the equation     
 
@@ -76,7 +76,9 @@ It is easy to see that we can find the value of $$\sqrt{11}$$ with increased acc
 
 **Observe: The rate at which we converge to the answer is logarithmic (why?)**
 **Reason: Every step leads to a reduction in one of the numbers by half**
+
 ---
+
 
 
 ## Least Squares
