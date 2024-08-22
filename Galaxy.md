@@ -199,26 +199,7 @@ $$
 
 So, to find the eventual distribution, would you keep performing matrix multiplications repeatedly?
 
-$$
-M \cdot v_0 = v_1\\
-M \cdot v_1 = v_2\\
-.\\
-.\\
-.\\
-M \cdot v_{n-1} = v_{n}\\
-$$
-
-OR
-
-$$
-v_1 = M \cdot v_0\\
-v_2 = M \cdot M \cdot v_0 = M^{2} \cdot v_0\\
-v_3 = M \cdot M \cdot M \cdot v_0 = M^{3} \cdot v_0\\
-.\\
-.\\
-.\\
-v_n = M^{n} \cdot v_0\\
-$$
+![EVD](/machinelearning/assets/images/EVD1.png)
 
 So do you realise that you dont need to do the matrix multiplication all the time! you just need to find $$M^{n}$$
 
@@ -230,50 +211,15 @@ EVD is Eigen Valued Decomposition
 We know that $$A v= \lambda v$$ where $$v$$ is the eigenvector
 
 
-<p align="left">
-$$
-\therefore 
-A 
-\begin{bmatrix} 
-| & | & | & \dots & | \\
-e_1 & e_2 & e_3 & \dots & e_n \\ 
-| & | & | & \dots & | 
-\end{bmatrix}
-=
-\begin{bmatrix} 
-| & | & | & \dots & | \\
-\lambda_1 e_1 & \lambda_2 e_2 & \lambda_3 e_3 & \dots & \lambda_n e_n \\ 
-| & | & | & \dots & | \\
-\end{bmatrix}
-$$
-
-$$
-A 
-\begin{bmatrix} 
-| & | & | & \dots & | \\
-e_1 & e_2 & e_3 & \dots & e_n \\ 
-| & | & | & \dots & | 
-\end{bmatrix}
-=
-\begin{bmatrix} 
-| & | & | & \dots & | \\
-e_1 & e_2 & e_3 & \dots & e_n \\ 
-| & | & | & \dots & | \\
-\end{bmatrix}
-\begin{bmatrix} 
-\lambda_1 & 0 & 0 & \dots & 0 \\
-0 & \lambda_2 & 0 & \dots & 0 \\ 
-0 & 0 & 0 & \dots & \lambda_n \\
-\end{bmatrix}
-$$
-</p>
+![EVD](/machinelearning/assets/images/EVD2.png)
 
 
+Multiplying a matrix with a vector $$v$$ and times is equivalent to raising the matrix to power $$n$$
 
+![EVD](/machinelearning/assets/images/EVD3.png)
 
-$$M = S \Lambda S^{-1}$$
-
-
+In a mark of matrix, the principal eigen vectors eigen value is 1.\\
+Let $$\lambda_1, e_1$$ denote principal eigen value and eigen vectors, respectively.
 
 
 Over time, this matrix multiplication will lead to a steady-state distribution, where further iterations will not change the result. This is the point of convergence.
