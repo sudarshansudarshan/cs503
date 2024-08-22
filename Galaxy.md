@@ -159,7 +159,7 @@ Think of the probability of transitioning from one state to another as a matrix,
 Here's what the matrix looks like:
 
 $$
-\text{Transition Matrix:} M = 
+\text{Transition Matrix: } M = 
 \begin{pmatrix}
 0.7 & 0.5 \\
 0.3 & 0.5
@@ -171,7 +171,7 @@ _Notice that the sum of the columns is 1._
 And here’s the initial distribution vector:
 
 $$
-\text{Initial Vector:} v_0= 
+\text{Initial Vector: } v_0= 
 \begin{pmatrix}
 1000 \\
 0
@@ -181,7 +181,7 @@ $$
 Now, to predict the distribution after one iteration, you multiply the matrix with the vector:
 
 $$
-\text{New Distribution:} v_1 = 
+\text{New Distribution: } v_1 = 
 \begin{pmatrix}
 0.7 & 0.5 \\
 0.3 & 0.5
@@ -202,25 +202,76 @@ So, to find the eventual distribution, would you keep performing matrix multipli
 $$
 M \cdot v_0 = v_1\\
 M \cdot v_1 = v_2\\
-$$
-
-$$
 .\\
 .\\
 .\\
-$$
-
-$$
 M \cdot v_{n-1} = v_{n}\\
 $$
 
-Notice that 
+OR
 
 $$
-v_1 = M \cdot v_0
+v_1 = M \cdot v_0\\
+v_2 = M \cdot M \cdot v_0 = M^{2} \cdot v_0\\
+v_3 = M \cdot M \cdot M \cdot v_0 = M^{3} \cdot v_0\\
+.\\
+.\\
+.\\
+v_n = M^{n} \cdot v_0\\
+$$
+
+So do you realise that you dont need to do the matrix multiplication all the time! you just need to find $$M^{n}$$
+
+But $$M$$ is a matrix, how easily can you do $$M^{n}$$?
+
+Here comes EVD for our help! 
+EVD is Eigen Valued Decomposition
+
+We know that $$A v= \lambda v$$ where $$v$$ is the eigenvector
+
+$$\therefore 
+
+A 
+\begin{bmatrix} 
+| & | & | & \dots & | \\
+e_1 & e_2 & e_3 & \dots & e_n \\ 
+| & | & | & \dots & | 
+\end{bmatrix}
+=
+\begin{bmatrix} 
+| & | & | & \dots & | \\
+\lambda_1 e_1 & \lambda_2 e_2 & \lambda_3 e_3 & \dots & \lambda_n e_n \\ 
+| & | & | & \dots & | \\
+\end{bmatrix}\\
+
+
+
+
+A 
+\begin{bmatrix} 
+| & | & | & \dots & | \\
+e_1 & e_2 & e_3 & \dots & e_n \\ 
+| & | & | & \dots & | 
+\end{bmatrix}
+=
+\begin{bmatrix} 
+| & | & | & \dots & | \\
+e_1 & e_2 & e_3 & \dots & e_n \\ 
+| & | & | & \dots & | \\
+\end{bmatrix}
+
+\begin{bmatrix} 
+\lambda_1 & 0 & 0 & \dots & 0 \\
+e_1 & \lambda_2 & 0 & \dots & 0 \\ 
+0 & 0 & 0 & \dots & \lambda_n \\
+\end{bmatrix}
+
 $$
 
 
+
+
+$$M = S \Lambda S^{-1}$$
 
 
 
