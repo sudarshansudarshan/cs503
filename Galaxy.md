@@ -82,7 +82,6 @@ It is easy to see that we can find the value of $$\sqrt{11}$$ with increased acc
 
 
 ## Least Squares
-
 # Subjects Example
 
 Let's dive into an interesting question: What does it mean to take points in 3D and project them onto a 2D plane? Imagine you have a table with marks in Physics, Math, and Programming.
@@ -106,6 +105,8 @@ But how do we find the best possible plane? Well, to do that, we need to minimiz
 ![Minimizing the Distance from the Plane](/machinelearning/assets/images/image6.png)
 
 Can you think of how we might achieve that? How would you go about finding the plane that best fits the data?
+
+---
 
 # Projection of Points
 
@@ -178,6 +179,8 @@ A \bar{x} = A(A^T A)^{-1} A^T b
 $$
 
 You see how everything falls into place, right? But here's a critical point: this works perfectly if \( A \) is invertible. Now, think about the real world—most matrices are invertible, aren’t they? So, we don’t usually have to worry about invertibility here. But what would happen if a matrix wasn't invertible? How would that affect our calculations?
+
+---
 
 
 ## QR Factorization
