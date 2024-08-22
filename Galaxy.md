@@ -228,16 +228,6 @@ The location with the highest steady-state probability is where people are most 
 ---
 
 
-
----
-
-
-
-
-
-
-
-
 ## Least Squares
 # Subjects Example
 
