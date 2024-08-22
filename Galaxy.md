@@ -118,3 +118,11 @@ You see how everything falls into place, right? But here's a critical point: thi
 ![QR Factorization](/machinelearning/assets/images/note3.png)
 
 ![QR Factorization](/machinelearning/assets/images/note4.png)
+
+Credit: Lakshay
+
+
+
+---
+
+First draft notes by Aashik Arun Bobade. For any corrections, contact: bobadeaashik@gmail.com.
