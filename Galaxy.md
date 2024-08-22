@@ -56,7 +56,7 @@ Why is this method so efficient? It's because you're using a binary search techn
 
 ---
 
-## 4. Finding $$\sqrt 11$$ 
+## 4) Finding $$\sqrt 11$$ 
 
 Finding the square root of 11 is equivalent to finding the root of the equation     
 
