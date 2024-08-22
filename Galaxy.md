@@ -201,25 +201,27 @@ So, to find the eventual distribution, would you keep performing matrix multipli
 
 ![EVD](/machinelearning/assets/images/EVD1.png)
 
-So do you realise that you dont need to do the matrix multiplication all the time! you just need to find $$M^{n}$$
+But do you realize that you don't need to do the matrix multiplication all the time? You just need to find $$M^{n}$$.
 
-But $$M$$ is a matrix, how easily can you do $$M^{n}$$?
+But $$M$$ is a matrix, so how easily can you compute $$M^{n}$$?
 
-Here comes EVD for our help! 
-EVD is Eigen Valued Decomposition
+This is where EVD (Eigenvalue Decomposition) comes to our rescue! 
 
-We know that $$A v= \lambda v$$ where $$v$$ is the eigenvector
+EVD, or Eigenvalue Decomposition, allows us to express the matrix $$M$$ in terms of its eigenvalues and eigenvectors.
 
+We know that:
+
+$$
+A v = \lambda v
+$$
+
+where $$v$$ is the eigenvector and $$\lambda$$ is the corresponding eigenvalue.
 
 ![EVD](/machinelearning/assets/images/EVD2.png)
 
-
-Multiplying a matrix with a vector $$v$$ and times is equivalent to raising the matrix to power $$n$$
+Multiplying a matrix by a vector $$v$$ $$n$$ times is equivalent to raising the matrix to the power $$n$$.
 
 ![EVD](/machinelearning/assets/images/EVD3.png)
-
-In a mark of matrix, the principal eigen vectors eigen value is 1.\\
-Let $$\lambda_1, e_1$$ denote principal eigen value and eigen vectors, respectively.
 
 
 Over time, this matrix multiplication will lead to a steady-state distribution, where further iterations will not change the result. This is the point of convergence.
