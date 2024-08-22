@@ -78,7 +78,7 @@ To make it even more efficient, you could experiment with different batch sizes,
 
 ---
 
-# Finding $$\sqrt (11)$$ 
+# Finding $$\sqrt{11}$$ 
 
 Finding the square root of 11 is equivalent to finding the root of the equation     
 
@@ -159,7 +159,7 @@ Think of the probability of transitioning from one state to another as a matrix,
 Here's what the matrix looks like:
 
 $$
-\text{Transition Matrix} = 
+\text{Transition Matrix:} M = 
 \begin{pmatrix}
 0.7 & 0.5 \\
 0.3 & 0.5
@@ -171,7 +171,7 @@ _Notice that the sum of the columns is 1._
 And here’s the initial distribution vector:
 
 $$
-\text{Initial Vector} = 
+\text{Initial Vector:} v_0= 
 \begin{pmatrix}
 1000 \\
 0
@@ -181,7 +181,7 @@ $$
 Now, to predict the distribution after one iteration, you multiply the matrix with the vector:
 
 $$
-\text{New Distribution} = 
+\text{New Distribution:} v_1 = 
 \begin{pmatrix}
 0.7 & 0.5 \\
 0.3 & 0.5
@@ -200,21 +200,24 @@ $$
 So, to find the eventual distribution, would you keep performing matrix multiplications repeatedly?
 
 $$
-A \cdot v_0 = v_1\\
-A \cdot v_1 = v_2\\
-$$
-.
-.
-.
-$$
-A \cdot v_{n-1} = v_n
+M \cdot v_0 = v_1\\
+M \cdot v_1 = v_2\\
 $$
 
+$$
+.\\
+.\\
+.\\
+$$
+
+$$
+M \cdot v_{n-1} = v_{n}\\
+$$
 
 Notice that 
 
 $$
-v_2 = A \cdot A \cdot v_0
+v_1 = M \cdot v_0
 $$
 
 
