@@ -391,7 +391,7 @@ $$Pr(|\mu - \gamma| > \epsilon) \leq \frac{2}{e^{2 \epsilon^{2} N}}$$
 
 $$\epsilon$$ can be anything, but on RHS $$\epsilon$$ is squared, i.e., $$\epsilon^n \to 0$$(very very less) it will try to pull the denominator of RHS to 1 but N pulls it up.
 
-The chances of difference of gods and your estimation is greater than \epsilon is $$\leq \frac{1}{e^{2 \epsilon^{2} N}}$$
+The chances of difference of gods and your estimation is greater than $$\epsilon$$ is $$\leq \frac{1}{e^{2 \epsilon^{2} N}}$$
 
 How do we apply this logic to our question?
 try to simulate this question
