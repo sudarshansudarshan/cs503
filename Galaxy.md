@@ -391,7 +391,7 @@ $$Pr(|\mu - \gamma| > \epsilon) \leq \frac{2}{e^{2 \epsilon^{2} N}}$$
 
 $$\epsilon$$ can be anything, but on RHS $$\epsilon$$ is squared, i.e., $$\epsilon^n \to 0$$(very very less) it will try to pull the denominator of RHS to 1 but N pulls it up.
 
-The chances of difference of gods and your estimation is greater than absence is $$\leq \frac{1}{e^{2 \epsilon^{2} N}}$$
+The chances of difference of gods and your estimation is greater than \epsilon is $$\leq \frac{1}{e^{2 \epsilon^{2} N}}$$
 
 How do we apply this logic to our question?
 try to simulate this question
@@ -408,7 +408,7 @@ Machine learning, miss makes you an astrologer
 
 Project:
 
-$$s_1, s_2, s_3, \cdots s_100$$
+$$s_1, s_2, s_3, \cdots s_{100}$$
 
 $$s_{i}(a_{i1}, a_{i2}, a_{i3}, \cdots a_{i10})$$
 
