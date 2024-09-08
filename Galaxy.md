@@ -390,7 +390,7 @@ It is given by:
 
 $$Pr(|\mu - \gamma| > \epsilon) \leq \frac{2}{e^{2 \epsilon^{2} N}}$$
 
-![Projection of Point A on the Line](/machinelearning/assets/images/he.png)
+![Hoeffding’s inequality](/machinelearning/assets/images/he.png)
 
 $$\epsilon$$ can be anything, but on RHS $$\epsilon$$ is squared, i.e., $$\epsilon^n \to 0$$(very very less) it will try to pull the denominator of RHS to 1 but N pulls it up.
 
