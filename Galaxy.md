@@ -370,6 +370,50 @@ _Credits: Lakshay_
 
 
 
+# Hoeffding's inequality
+
+
+**Question: Walk into Amritsar and estimate the ratio of Man to women for population of $$10^6$$**
+
+You can write a python code to observe this:
+
+`# create a list of length L of 1 million of randomly distributed numbers between one and zero with probability 0.21
+`
+
+`# create another list with eye element, being the proportion of zero, seen, so far, meaning up to position
+`
+
+You have a biased coin. How or when will you get to know that the coin is biased or how many steps will it take to know that the coin is biased?
+
+It is given by:
+
+$$Pr(|\mu - \gamma| > \epsilon) \leq \frac{2}{e^{2 \epsilon^{2} N}}$$
+
+$$\epsilon$$ can be anything, but on RHS $$\epsilon$$ is squared, i.e., $$\epsilon^n \to 0$$(very very less) it will try to pull the denominator of RHS to 1 but N pulls it up.
+
+The chances of difference of gods and your estimation is greater than absence is $$\leq \frac{1}{e^{2 \epsilon^{2} N}}$$
+
+How do we apply this logic to our question?
+try to simulate this question
+
+You can see that with very less N the convergence occurs
+
+Do you realise that the whole of this process is dependent on N and that there is an exponential dip?
+
+
+You are given a coin whose bias, which is unknown. How many times should you toss the coin so that you are confident of your estimate with a margin of 0.01?
+
+Machine learning, miss makes you an astrologer
+
+
+Project:
+
+$$s_1, s_2, s_3, \cdots s_100$$
+
+$$s_{i}(a_{i1}, a_{i2}, a_{i3}, \cdots a_{i10})$$
+
+
+
 
 ---
 
