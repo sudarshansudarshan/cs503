@@ -374,7 +374,7 @@ _Credits: Lakshay_
 # Hoeffding's inequality
 
 
-**Question: Walk into Amritsar and estimate the ratio of Man to women for population of $$10^6$$**
+**Question: Walk into Amritsar and estimate the ratio of men to women for a population of $$10^6$$.**
 Write a code and observe this.
 
 
@@ -432,33 +432,38 @@ plt.show()
 ```
 
 
-You have a biased coin. How or when will you get to know that the coin is biased or how many steps will it take to know that the coin is biased?
+You have a biased coin. How or when will you get to know that the coin is biased, or how many steps will it take to know that the coin is biased?
 
 It is given by:
 
-$$Pr(|\mu - \gamma| > \epsilon) \leq \frac{2}{e^{2 \epsilon^{2} N}}$$
+$$
+Pr(|\mu - \gamma| > \epsilon) \leq \frac{2}{e^{2 \epsilon^{2} N}}
+$$
 
-![Hoeffding’s inequality](/machinelearning/assets/images/he.png)
+![Hoeffding’s Inequality](/machinelearning/assets/images/he.png)
 
-$$\epsilon$$ can be anything like 0.001 or 0.01, but on RHS $$\epsilon$$ is squared, 
+Here, $$\epsilon$$ can be anything like 0.001 or 0.01, but on the right-hand side, $$\epsilon$$ is squared:
 
-i.e., $$\epsilon^2 \to 0$$(very very less) hence it will try to pull the denominator of RHS to 1, you know that how!
+$$
+\epsilon^2 \to 0
+$$ 
 
-but N pulls it up.
+This makes it very small, pulling the denominator of the right-hand side closer to 1, as you might expect! But **N** (the number of samples) pulls it up.
 
-![Hoeffding’s inequality](/machinelearning/assets/images/he2.png)
+![Hoeffding’s Inequality](/machinelearning/assets/images/he2.png)
 
+So, the chances of the difference between the true mean and your estimated mean being greater than $$\epsilon$$ are:
 
-The chances of difference of gods and your estimation is greater than $$\epsilon$$ is $$\leq \frac{1}{e^{2 \epsilon^{2} N}}$$
+$$
+\leq \frac{1}{e^{2 \epsilon^{2} N}}
+$$
 
 How do we apply this logic to our question?
 
-You can see that with very less **_N_** the convergence occurs
-
-Do you realise that the whole of this process is dependent on N and that there is an exponential dip?
+You can see that with a very small **_N_**, convergence occurs quickly. Do you realize that the whole of this process is dependent on **N** and that there is an exponential dip?
 
 
-**Hoeffding’s inequality and its relation with N**
+**Hoeffding's Inequality and its Relation with _N_**
 
 ```
 import random
@@ -536,7 +541,9 @@ A company has 100 employees, each rated in 10 distinct skills. Each employee's r
 
 Your task is to divide the employees into two equal-sized groups (50 each) such that for every skill, the sum of the skill ratings in Group 1 is equal to the sum of the skill ratings in Group 2.
 
-![Hoeffding’s inequality](/machinelearning/assets/images/he1.png)
+![Hoeffding’s Inequality](/machinelearning/assets/images/he1.png)
+
+
 
 ---
 
