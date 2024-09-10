@@ -556,6 +556,10 @@ Your task is to divide the employees into two equal-sized groups (50 each) such 
 ![PLA](/machinelearning/assets/images/PLA6.jpg)
 
 
+![PLA](/machinelearning/assets/images/PLA7.png)
+![PLA](/machinelearning/assets/images/PLA8.png)
+
+
 
 ---
 
