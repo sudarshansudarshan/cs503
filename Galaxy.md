@@ -21,8 +21,8 @@ Let's start with a simple question: Given the marks of a student in English and 
 
 Think about it like this — can we find a combination of English and Hindi marks that equals the Sanskrit marks? For example, could it be that:
 
-- `2 * English + 5 * Hindi = Sanskrit`  
-- Or maybe `3 * English + 1 * Hindi = Sanskrit`?
+- `0.2 * English + 0.8 * Hindi = Sanskrit`  
+- Or maybe `0.3 * English + 0.7 * Hindi = Sanskrit`?
 
 Now, here's something to ponder: we only looked at two subjects, but what happens if we throw in more subjects? What if we have 3, 4, 5, or even 100 subjects? Do you see how the complexity of this question ramps up significantly?
 
