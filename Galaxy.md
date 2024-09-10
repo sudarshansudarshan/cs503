@@ -544,6 +544,18 @@ Your task is to divide the employees into two equal-sized groups (50 each) such 
 ![Hoeffding’s Inequality](/machinelearning/assets/images/he1.png)
 
 
+# Perceptron Learning Algorithm
+
+## Update Rule
+
+![PLA](/machinelearning/assets/images/PLA1.png)
+![PLA](/machinelearning/assets/images/PLA2.png)
+![PLA](/machinelearning/assets/images/PLA3.png)
+![PLA](/machinelearning/assets/images/PLA4.png)
+![PLA](/machinelearning/assets/images/PLA5.png)
+![PLA](/machinelearning/assets/images/PLA6.png)
+
+
 
 ---
 
