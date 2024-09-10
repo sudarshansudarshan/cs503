@@ -548,12 +548,12 @@ Your task is to divide the employees into two equal-sized groups (50 each) such 
 
 ## Update Rule
 
-![PLA](/machinelearning/assets/images/PLA1.png)
-![PLA](/machinelearning/assets/images/PLA2.png)
-![PLA](/machinelearning/assets/images/PLA3.png)
-![PLA](/machinelearning/assets/images/PLA4.png)
-![PLA](/machinelearning/assets/images/PLA5.png)
-![PLA](/machinelearning/assets/images/PLA6.png)
+![PLA](/machinelearning/assets/images/PLA1.jpg)
+![PLA](/machinelearning/assets/images/PLA2.jpg)
+![PLA](/machinelearning/assets/images/PLA3.jpg)
+![PLA](/machinelearning/assets/images/PLA4.jpg)
+![PLA](/machinelearning/assets/images/PLA5.jpg)
+![PLA](/machinelearning/assets/images/PLA6.jpg)
 
 
 
