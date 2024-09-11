@@ -1,4 +1,4 @@
----
+![SVD41](https://github.com/user-attachments/assets/8eca1820-bd47-42bd-a723-0d8dff3e5627)---
 layout: page
 title: Galaxy 
 order: 5
@@ -561,9 +561,16 @@ Your task is to divide the employees into two equal-sized groups (50 each) such 
 
 # SVD
 
+![PLA](/machinelearning/assets/images/SVD1.png)
+
 <video width="640" height="360" controls>
   <source src="https://github.com/sudarshansudarshan/machinelearning/assets/images/lena.mp4?raw=true" type="video/mp4">
 </video>
+
+![PLA](/machinelearning/assets/images/SVD2.png)
+![PLA](/machinelearning/assets/images/SVD3.png)
+![PLA](/machinelearning/assets/images/SVD4.png)
+![PLA](/machinelearning/assets/images/SVD5.png)
 
 
 
