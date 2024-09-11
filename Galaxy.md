@@ -563,8 +563,11 @@ Your task is to divide the employees into two equal-sized groups (50 each) such 
 
 ![PLA](/machinelearning/assets/images/SVD1.png)
 
-<video width="640" height="360" controls>
+<video width="720" height="360" controls>
   <source src="https://github.com/sudarshansudarshan/machinelearning/blob/main/assets/images/lena.mp4?raw=true" type="video/mp4">
+</video>
+<video width="720" height="360" controls>
+  <source src="https://github.com/sudarshansudarshan/machinelearning/blob/main/assets/images/dlines.mp4?raw=true" type="video/mp4">
 </video>
 
 ![PLA](/machinelearning/assets/images/SVD2.png)
