@@ -56,7 +56,7 @@ Why is this method so efficient? It's because you're using a binary search techn
 
 ---
 
-## COVID Testing: Minimizing the Number of Tests (BST Method)
+## COVID Testing: Minimizing the Number of Tests
 
 Consider a scenario where a clinic needs to test a group of 10 people for COVID-19. Individual testing is expensive, so the clinic needs an efficient strategy to minimize costs. How can they do this?
 
