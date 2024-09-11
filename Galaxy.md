@@ -1,4 +1,4 @@
-![SVD41](https://github.com/user-attachments/assets/8eca1820-bd47-42bd-a723-0d8dff3e5627)---
+
 layout: page
 title: Galaxy 
 order: 5
