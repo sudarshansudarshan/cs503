@@ -302,7 +302,7 @@ Our goal is to find a polynomial $$ p(x) = a_nx^n + a_{n-1}x^{n-1} + \cdots + a_
      $$
      a(4)^3 + b(4)^2 + c(4) + d = 27
      \Rightarrow 64a + 16b + 4c + d = 35
-     $
+     $$
 
 3. **Solve the system of equations**: Now, solve this system of four linear equations for $$ a $$, $$ b $$, $$ c $$, and $$ d $$.
 
