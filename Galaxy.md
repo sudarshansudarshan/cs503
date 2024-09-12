@@ -94,9 +94,9 @@ We can keep reducing the size of the interval this way.
 
 Every time, we reduce the interval by half. 
 
-It is easy to see that we can find the value of $$\sqrt{11}$$ with increased accuracy with time.
+It is easy to see that we can find the value of $$\sqrt{11}$$ with increased accuracy with increase in the number of steps.
 
-**Observe: The rate at which we converge to the answer is logarithmic (why?)**
+**Observe: The number of steps(iterations) at which we converge to the answer is logarithmic (why?)**
 **Reason: Every step leads to a reduction in one of the numbers by half**
 
 ---
