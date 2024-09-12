@@ -257,6 +257,118 @@ The location with the highest steady-state probability is where people are most 
 
 ---
 
+# Taylor Series
+
+**Question: Can You Find a Polynomial Function That Maps a Set of Inputs to Outputs?**
+
+Given a set of input and output values, how can we find a polynomial function that accurately maps those inputs to the corresponding outputs? This is a common problem in mathematics and data modeling, where we try to fit a curve to data points.
+
+**Example:**
+Suppose we are given the following set of input and output pairs:
+
+| \(x\) | \(f(x)\) |
+|------|---------|
+| 1    | 2       |
+| 2    | 3       |
+| 3    | 12      |
+| 4    | 35      |
+
+Our goal is to find a polynomial \( p(x) = a_nx^n + a_{n-1}x^{n-1} + \cdots + a_1x + a_0 \) that satisfies these input-output relations.
+
+**Step-by-Step Approach (First Principles):**
+1. **Assume a polynomial form**: Start by assuming the simplest polynomial that could fit these points. For four data points, we may try a cubic polynomial:
+   \[
+   p(x) = ax^3 + bx^2 + cx + d
+   \]
+
+2. **Set up equations**: Substitute the given points into this polynomial.
+
+   - For \( x = 1 \), \( f(1) = 2 \):
+     \[
+     a(1)^3 + b(1)^2 + c(1) + d = 2
+     \Rightarrow a + b + c + d = 2
+     \]
+   - For \( x = 2 \), \( f(2) = 3 \):
+     \[
+     a(2)^3 + b(2)^2 + c(2) + d = 3
+     \Rightarrow 8a + 4b + 2c + d = 3
+     \]
+   - For \( x = 3 \), \( f(3) = 10 \):
+     \[
+     a(3)^3 + b(3)^2 + c(3) + d = 10
+     \Rightarrow 27a + 9b + 3c + d = 12
+     \]
+   - For \( x = 4 \), \( f(4) = 27 \):
+     \[
+     a(4)^3 + b(4)^2 + c(4) + d = 27
+     \Rightarrow 64a + 16b + 4c + d = 35
+     \]
+
+3. **Solve the system of equations**: Now, solve this system of four linear equations for \( a \), \( b \), \( c \), and \( d \).
+
+   Solving these, we get:
+   \[ 
+   a = 1, \quad b = -2, \quad c = 0, \quad d = 3
+   \]
+
+4. **Write the polynomial**: The polynomial function that maps the inputs to the outputs is:
+   \[
+   p(x) = x^3 - 2x^2 + 3
+   \]
+
+**Polynomial Approximation for Complex Functions**
+
+Now that we've seen how to derive a polynomial that fits specific points, let's consider more complex functions like \( \sin(x) \), \( \cos(x) \), and \( e^x \), which can't be exactly represented by simple polynomials. However, using a powerful mathematical tool called the **Taylor series**, we can approximate these functions very closely using polynomials.
+
+**Taylor Series: Approximating Functions with Polynomials**
+
+The **Taylor series** allows us to approximate functions that are smooth (infinitely differentiable) with polynomials. The key idea is to express a function as an infinite sum of terms derived from the function’s derivatives at a specific point.
+
+**What Does the Taylor Series Depend On?**
+
+The accuracy of the Taylor series approximation depends on two main factors:
+1. **The differentiability of the function**: The function must be differentiable as many times as needed at the point around which the approximation is made.
+2. **The number of terms**: More terms in the series result in a better approximation.
+
+**The Taylor Series Formula:**
+Given a function \( f(x) \), its Taylor series expansion around \( x = a \) is given by:
+
+\[
+f(x) = f(a) + f'(a)(x - a) + \frac{f''(a)}{2!}(x - a)^2 + \frac{f^{(3)}(a)}{3!}(x - a)^3 + \cdots
+\]
+
+For most practical purposes, we truncate the series after a few terms to get an approximate polynomial.
+
+**Example: Taylor Series for Common Functions**
+
+1. **Exponential Function \( e^x \)**:
+   \[
+   e^x = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots
+   \]
+   This series is valid for all \( x \), and the more terms you include, the more accurate the approximation.
+
+2. **Sine Function \( \sin(x) \)**:
+   \[
+   \sin(x) = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \cdots
+   \]
+   The sine function is odd, so all even powers of \( x \) vanish.
+
+3. **Cosine Function \( \cos(x) \)**:
+   \[
+   \cos(x) = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!} + \cdots
+   \]
+   The cosine function is even, so all odd powers of \( x \) vanish.
+
+**Taylor Series and Function Behavior**
+
+By approximating complex functions using polynomials derived from the Taylor series, we can understand how functions behave near a particular point. For instance, for small values of \( x \), the sine function behaves almost linearly, as the higher-order terms contribute very little.
+
+**Summary:**
+
+The Taylor series allows us to approximate complex, real-world functions using simpler polynomials, similar to how machine learning models aim to approximate the underlying patterns in data. Both involve the concept of approximation and rely on increasing complexity (more terms in the series or more features in the model) to improve accuracy.
+
+---
+
 
 # Least Squares
 ## Subjects Example
