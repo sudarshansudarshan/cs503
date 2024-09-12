@@ -370,8 +370,8 @@ The Taylor series allows us to approximate complex, real-world functions using s
 
 ---
 
-
-# Introduction
+# Gradient Descent
+**Introduction**
 
 Gradient Descent is an optimization algorithm that helps us find the minimum value of a function by iteratively moving in the direction of the steepest descent. You can think of it as a way to slide down a hill to reach the lowest point, starting from any point on the hill.
 
@@ -390,7 +390,7 @@ This is essentially how Gradient Descent works! It "feels" the slope of the func
 
 Let’s take a simple example: imagine you're skiing down a smooth, bowl-shaped hill. The objective is to get to the lowest point. At every moment, you assess which direction takes you down most steeply. You take small steps in that direction, each time reassessing the steepest descent until you finally arrive at the bottom.
 
-Mathematically, if the hill is represented by the function \( J(\Theta) = (\Theta - 3)^2 \), Gradient Descent will start at some point on the curve and iteratively move towards the minimum point at \( \Theta = 3 \).
+Mathematically, if the hill is represented by the function $$ J(\Theta) = (\Theta - 3)^2 $$, Gradient Descent will start at some point on the curve and iteratively move towards the minimum point at $$ \Theta = 3 $$.
 
 **Example 2: Finding the Minimum of a Valley**
 
@@ -412,16 +412,16 @@ In terms of Gradient Descent:
 **How Does Gradient Descent Work?**
 
 Let’s break it down into steps:
-1. **Start at a Random Point**: Imagine being placed randomly on a hill. This is like starting Gradient Descent at an initial guess for the parameter \( \Theta \).
+1. **Start at a Random Point**: Imagine being placed randomly on a hill. This is like starting Gradient Descent at an initial guess for the parameter $$ \Theta $$.
 2. **Compute the Slope (Gradient)**: At each point, you calculate the slope of the hill, which tells you in which direction the function increases or decreases most rapidly.
-3. **Take a Step in the Opposite Direction**: You take a step in the direction opposite to the gradient (i.e., you move downwards). The size of this step is determined by the learning rate \( \eta \).
+3. **Take a Step in the Opposite Direction**: You take a step in the direction opposite to the gradient (i.e., you move downwards). The size of this step is determined by the learning rate $$ \eta $$.
 4. **Repeat**: You keep taking steps until you reach the bottom, i.e., until the slope becomes nearly zero (the gradient becomes very small).
 
 **Visualizing Gradient Descent**
 
 **Graphical Representation in 1D**
 
-Imagine we have a curve representing a simple function, say \( J(\Theta) = (\Theta - 3)^2 \), which looks like a bowl. If you start at some point on the curve, Gradient Descent will move you step-by-step towards the minimum.
+Imagine we have a curve representing a simple function, say $$ J(\Theta) = (\Theta - 3)^2 $$, which looks like a bowl. If you start at some point on the curve, Gradient Descent will move you step-by-step towards the minimum.
 
 ![Gradient Descent in 1D](gradient_descent_1d.png)
 
@@ -443,8 +443,6 @@ There are a few popular variants of Gradient Descent that improve efficiency, es
 **Conclusion**
 
 Gradient Descent is a powerful yet intuitive method to find the minimum of a function. By constantly moving in the direction of steepest descent (downhill), we eventually find the lowest point. Whether it's finding the best fit line in linear regression, training deep neural networks, or solving any optimization problem, Gradient Descent is a fundamental tool in machine learning.
-
-
 
 
 
