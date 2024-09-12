@@ -241,6 +241,7 @@ $$
 
 ![Markov Convergence Derivation](/machinelearning/assets/images/markovder1.png)
 ![Markov Convergence Derivation](/machinelearning/assets/images/markovder2.png)
+_Credits: Aditya BMV_
 
 
 ## Application of Markov Matrices: Opening a New Restaurant
@@ -476,11 +477,8 @@ You see how everything falls into place, right? But here's a critical point: thi
 
 
 ![QR Factorization](/machinelearning/assets/images/note1.png)
-
 ![QR Factorization](/machinelearning/assets/images/note2.png)
-
 ![QR Factorization](/machinelearning/assets/images/note3.png)
-
 ![QR Factorization](/machinelearning/assets/images/note4.png)
 
 _Credits: Lakshay_
