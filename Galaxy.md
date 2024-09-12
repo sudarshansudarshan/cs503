@@ -239,8 +239,8 @@ $$
 
 **Markov Convergence Derivation**
 
-![Markov Convergence Derivation](/machinelearning/assets/images/markovder1.jpeg)
-![Markov Convergence Derivation](/machinelearning/assets/images/markovder2.jpeg)
+![Markov Convergence Derivation](/machinelearning/assets/images/markovder1.png)
+![Markov Convergence Derivation](/machinelearning/assets/images/markovder2.png)
 
 
 ## Application of Markov Matrices: Opening a New Restaurant
