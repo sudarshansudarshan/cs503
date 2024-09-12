@@ -237,7 +237,7 @@ $$
 \end{bmatrix}
 $$
 
-**Markov Convergence Derivation**
+**Derivation for convergence in Markov Matrix**
 
 ![Markov Convergence Derivation](/machinelearning/assets/images/markovder1.png)
 ![Markov Convergence Derivation](/machinelearning/assets/images/markovder2.png)
