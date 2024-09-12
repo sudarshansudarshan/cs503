@@ -237,6 +237,11 @@ $$
 \end{bmatrix}
 $$
 
+**Markov Convergence Derivation**
+
+![Markov Convergence Derivation](/machinelearning/assets/images/markovder1.jpeg)
+![Markov Convergence Derivation](/machinelearning/assets/images/markovder2.jpeg)
+
 
 ## Application of Markov Matrices: Opening a New Restaurant
 
@@ -558,6 +563,9 @@ Your task is to divide the employees into two equal-sized groups (50 each) such 
 
 ![PLA](/machinelearning/assets/images/PLA7.png)
 ![PLA](/machinelearning/assets/images/PLA8.png)
+
+
+---
 
 # SVD
 
