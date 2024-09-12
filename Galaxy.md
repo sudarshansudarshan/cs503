@@ -681,7 +681,7 @@ Your task is to divide the employees into two equal-sized groups (50 each) such 
 
 # SVD
 
-![PLA](/machinelearning/assets/images/SVD11.png)
+![PLA](/machinelearning/assets/images/SVD1.png)
 
 <video width="720" height="360" controls>
   <source src="https://github.com/sudarshansudarshan/machinelearning/blob/main/assets/images/lena.mp4?raw=true" type="video/mp4">
