@@ -410,8 +410,8 @@ In terms of Gradient Descent:
 - The learning rate is how much we allow the ball to roll at each step.
 
 
-Given a convex function $$J(Θ)$$,\\
-Gradient Descent follows the update rule: $$\Theta^{(t+1)} = \Theta{(t)} − \eta\nabla_{\Theta} J{(\Theta(t))}$$
+**Given a convex function $$J(Θ)$$,**\\
+Gradient Descent follows the update rule: $$\Theta^{(t+1)} = \Theta{(t)} − \eta \nabla_{\Theta} J(\Theta^{(t)})$$
 
 
 **How Does Gradient Descent Work?**
