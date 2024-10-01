@@ -921,7 +921,7 @@ We began by recalling the major problem we were addressing:
 ### 7.1. Bounding the Error
 
 - **Objective**:
-  - Find $$ \epsilon $$ such that $$ P(|E_{\text{in}} - E_{\text{out}}| > \epsilon) $$ is acceptably low.
+  - Find $$ \epsilon $$ such that $$ P(\|E_{\text{in}} - E_{\text{out}}\| > \epsilon) $$ is acceptably low.
 - **Derivation**:
   - Rearranging Hoeffding's inequality to solve for $$ \epsilon $$:
     $$
