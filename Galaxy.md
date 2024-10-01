@@ -785,18 +785,7 @@ Your task is to divide the employees into two equal-sized groups (50 each) such 
 ---
 
 
-# Joy of Computing Workshop - Class Notes
-
-## Introduction
-
-In today's session of the Joy of Computing workshop, we delved into the theoretical aspects of machine learning, focusing on:
-
-- **Generalization Error**: Understanding the difference between performance on training data and unseen data.
-- **Hypothesis Functions**: Exploring the role of hypothesis sets in classification.
-- **Probabilistic Bounds**: Applying probability theory to bound errors.
-- **Sample Size and Complexity**: Assessing how sample size and model complexity affect learning.
-
----
+# The Learning Problem
 
 ## 1. Recap of Previous Session
 
