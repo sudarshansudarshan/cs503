@@ -784,7 +784,6 @@ Your task is to divide the employees into two equal-sized groups (50 each) such 
 
 ---
 
-
 # The Learning Problem
 
 ## 1. Recap of Previous Session
@@ -804,7 +803,7 @@ We began by recalling the major problem we were addressing:
 - **Objective**: Estimate the proportion of black and white balls.
 - **Method**:
   - **Sampling**: Draw balls randomly and note their colors.
-  - **Sample Proportions**: If you draw 9 balls and get 2 black and 7 white, the sample proportions are \( \frac{2}{9} \) black and \( \frac{7}{9} \) white.
+  - **Sample Proportions**: If you draw 9 balls and get 2 black and 7 white, the sample proportions are $$ \frac{2}{9} $$ black and $$ \frac{7}{9} $$ white.
 - **Inference**:
   - Use sample proportions to infer the true proportions in the jar.
   - **Law of Large Numbers**: Increasing the number of samples improves the accuracy of the estimate.
@@ -821,20 +820,20 @@ We began by recalling the major problem we were addressing:
 ### 3.1. Hypothesis Functions and Classification
 
 - **Data Points**: Consider a set of points to classify.
-- **Hypothesis Set (\( H \))**:
+- **Hypothesis Set ($$ H $$)**:
   - A collection of functions (classifiers) used to model the data.
   - **Examples**: Linear classifiers, decision trees, neural networks.
-- **Redundancy in \( H \)**:
+- **Redundancy in $$ H $$**:
   - Functions that classify data identically can be considered the same.
-  - **Simplifying \( H \)**: Reduces complexity by eliminating redundant hypotheses.
+  - **Simplifying $$ H $$**: Reduces complexity by eliminating redundant hypotheses.
 
 ### 3.2. In-Sample and Out-of-Sample Error
 
-- **In-Sample Error (\( E_{\text{in}} \))**:
+- **In-Sample Error ($$ E_{\text{in}} $$)**:
   - The proportion of misclassified points in the training data.
-- **Out-of-Sample Error (\( E_{\text{out}} \))**:
+- **Out-of-Sample Error ($$ E_{\text{out}} $$)**:
   - The expected error on new, unseen data.
-- **Goal**: Minimize \( E_{\text{out}} \) to ensure good generalization.
+- **Goal**: Minimize $$ E_{\text{out}} $$ to ensure good generalization.
 
 ---
 
@@ -842,18 +841,18 @@ We began by recalling the major problem we were addressing:
 
 ### 4.1. The Need for Error Bounds
 
-- **Challenge**: \( E_{\text{out}} \) cannot be directly computed.
-- **Solution**: Use probabilistic bounds to relate \( E_{\text{in}} \) and \( E_{\text{out}} \).
-- **Key Question**: How can we ensure that \( E_{\text{in}} \) is close to \( E_{\text{out}} \)?
+- **Challenge**: $$ E_{\text{out}} $$ cannot be directly computed.
+- **Solution**: Use probabilistic bounds to relate $$ E_{\text{in}} $$ and $$ E_{\text{out}} $$.
+- **Key Question**: How can we ensure that $$ E_{\text{in}} $$ is close to $$ E_{\text{out}} $$?
 
 ### 4.2. Hoeffding's Inequality
 
 - **Statement**:
-  - For independent random variables, the probability that the sample mean deviates from the true mean by more than \( \epsilon \) decreases exponentially with sample size (\( N \)).
+  - For independent random variables, the probability that the sample mean deviates from the true mean by more than $$ \epsilon $$ decreases exponentially with sample size ($$ N $$).
 - **Formula**:
-  \[
+  $$
   P\left(|E_{\text{in}} - E_{\text{out}}| > \epsilon\right) \leq 2e^{-2\epsilon^2 N}
-  \]
+  $$
 - **Interpretation**:
   - Provides a bound on the probability that the in-sample error deviates from the out-of-sample error.
 
@@ -862,23 +861,23 @@ We began by recalling the major problem we were addressing:
 - **Concept**:
   - When considering multiple hypotheses, the probability that any one of them fails to generalize well is bounded by the sum of their individual probabilities.
 - **Application**:
-  - For \( M \) hypotheses:
-    \[
+  - For $$ M $$ hypotheses:
+    $$
     P\left(\exists h \in H: |E_{\text{in}}(h) - E_{\text{out}}(h)| > \epsilon\right) \leq 2M e^{-2\epsilon^2 N}
-    \]
+    $$
 - **Implication**:
-  - The more hypotheses we have, the looser the bound becomes unless \( N \) increases.
+  - The more hypotheses we have, the looser the bound becomes unless $$ N $$ increases.
 
 ---
 
 ## 5. The Role of Hypothesis Complexity
 
-### 5.1. Number of Hypotheses (\( M \))
+### 5.1. Number of Hypotheses ($$ M $$)
 
 - **Effect on Error Bounds**:
-  - Larger \( M \) increases the bound, making it harder to guarantee small \( E_{\text{out}} \).
+  - Larger $$ M $$ increases the bound, making it harder to guarantee small $$ E_{\text{out}} $$.
 - **Managing Complexity**:
-  - Limiting \( M \) (e.g., through regularization) helps improve generalization.
+  - Limiting $$ M $$ (e.g., through regularization) helps improve generalization.
 
 ### 5.2. VC Dimension
 
@@ -922,22 +921,22 @@ We began by recalling the major problem we were addressing:
 ### 7.1. Bounding the Error
 
 - **Objective**:
-  - Find \( \epsilon \) such that \( P(|E_{\text{in}} - E_{\text{out}}| > \epsilon) \) is acceptably low.
+  - Find $$ \epsilon $$ such that $$ P(|E_{\text{in}} - E_{\text{out}}| > \epsilon) $$ is acceptably low.
 - **Derivation**:
-  - Rearranging Hoeffding's inequality to solve for \( \epsilon \):
-    \[
+  - Rearranging Hoeffding's inequality to solve for $$ \epsilon $$:
+    $$
     \epsilon = \sqrt{\frac{\ln(2M/\delta)}{2N}}
-    \]
-    where \( \delta \) is the desired probability bound.
+    $$
+    where $$ \delta $$ is the desired probability bound.
 
-### 7.2. Understanding \( M \)
+### 7.2. Understanding $$ M $$
 
 - **Combinatorial Considerations**:
-  - \( M \) can be large (even exponential) depending on the hypothesis set.
+  - $$ M $$ can be large (even exponential) depending on the hypothesis set.
   - **Example**:
-    - For binary classification with \( N \) points, \( M \) can be up to \( 2^{N} \).
+    - For binary classification with $$ N $$ points, $$ M $$ can be up to $$ 2^{N} $$.
 - **Practical Approach**:
-  - Use simpler models or regularization to keep \( M \) manageable.
+  - Use simpler models or regularization to keep $$ M $$ manageable.
   - Ensures that the bound remains meaningful.
 
 ---
@@ -946,10 +945,10 @@ We began by recalling the major problem we were addressing:
 
 ### 8.1. Balancing Sample Size and Model Complexity
 
-- **Sample Size (\( N \))**:
-  - Increasing \( N \) tightens the error bound.
-- **Model Complexity (\( M \))**:
-  - Reducing \( M \) (simpler models) also tightens the bound.
+- **Sample Size ($$ N $$)**:
+  - Increasing $$ N $$ tightens the error bound.
+- **Model Complexity ($$ M $$)**:
+  - Reducing $$ M $$ (simpler models) also tightens the bound.
 - **Trade-Off**:
   - Need to balance complexity and available data to achieve good generalization.
 
@@ -993,10 +992,6 @@ Understanding the theoretical aspects of machine learning is crucial for:
 - **Making Informed Decisions**: Using mathematical bounds to guide the learning process.
 
 As we continue, focus on internalizing these concepts and applying them to practical scenarios.
-
----
-
-These notes provide a structured summary of the key topics discussed, helping to reinforce understanding and aid in preparation for assessments.
 
 ---
 
