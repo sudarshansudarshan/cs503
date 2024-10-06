@@ -1005,6 +1005,6 @@ As we continue, focus on internalizing these concepts and applying them to pract
 ![LFD](/machinelearning/assets/images/LFD6.png)
 ![LFD](/machinelearning/assets/images/LFD7.png)
 
-
+---
 
 _First draft notes by Aashik Arun Bobade. For any corrections, contact: bobadeaashik@gmail.com._
