@@ -995,6 +995,16 @@ As we continue, focus on internalizing these concepts and applying them to pract
 
 ---
 
+# Learning From Data
+
+![LFD](/machinelearning/assets/images/LFD1.png)
+![LFD](/machinelearning/assets/images/LFD2.png)
+![LFD](/machinelearning/assets/images/LFD3.png)
+![LFD](/machinelearning/assets/images/LFD4.png)
+![LFD](/machinelearning/assets/images/LFD5.png)
+![LFD](/machinelearning/assets/images/LFD6.png)
+![LFD](/machinelearning/assets/images/LFD7.png)
+
 
 
 _First draft notes by Aashik Arun Bobade. For any corrections, contact: bobadeaashik@gmail.com._
