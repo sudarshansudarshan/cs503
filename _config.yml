@@ -34,6 +34,7 @@ header_pages:
   - Oceanverse.md
   - Syllabus.md
   - Galaxy.md
+  - Project.md
 
 markdown: kramdown
 title: CS503
