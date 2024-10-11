@@ -101,23 +101,19 @@ As part of your final project, you are required to submit a comprehensive report
 
 ## Marking Scheme
 
-| Evaluation Criteria                   | Marks |
-|---------------------------------------|-------|
-| **Choice of Dataset**                 |       |
-| Dataset Selection and Justification   | 10    |
-| **Understanding Dataset**             |       |
-| Description of Dataset                | 10    |
-| Data Cleaning and Preprocessing       | 10    |
-| **Understanding Algorithm**           |       |
-| Selection of Algorithm and Justification | 10 |
-| Implementation                        | 20    |
-| Model Performance                     | 10    |
-| **Inference**                         |       |
-| Results Interpretation                | 10    |
-| Visualizations                        | 5     |
-| Conclusion                            | 5     |
-| **Report and Notebook**               |       |
-| Report and Colab Notebook             | 10    |
+| Category                  | Evaluation Criteria                         | Marks |
+|---------------------------|---------------------------------------------|-------|
+| **Choice of dataset**      | Dataset Selection and Justification         | 10    |
+| **Understanding Dataset**  | Description of Dataset                      | 10    |
+|                           | Data Cleaning and Preprocessing             | 10    |
+| **Understanding Algorithm**| Selection of Algorithm and Justification    | 10    |
+|                           | Implementation                              | 20    |
+|                           | Model Performance                           | 10    |
+| **Inference**              | Results Interpretation                      | 10    |
+|                           | Visualisations                              | 5     |
+|                           | Conclusion                                  | 5     |
+| **Report and Notebook**    | Report and Colab Notebook                   | 10    |
+
 
 ---
 
