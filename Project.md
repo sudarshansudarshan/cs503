@@ -113,6 +113,7 @@ As part of your final project, you are required to submit a comprehensive report
 |                           | Visualisations                              | 5     |
 |                           | Conclusion                                  | 5     |
 | **Report and Notebook**    | Report and Colab Notebook                   | 10    |
+|      |                | **100**    |
 
 
 ---
