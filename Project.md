@@ -5,44 +5,143 @@ permalink: /project/
 ---
 
 
-<p style="text-align: justify;">
+# Open Project: CS503
 
-The discrete mathematics course project aims to assess students' understanding and appreciation of the concepts presented throughout the course, as well as their development of the necessary skills to apply these ideas effectively. This project will provide students with a unique opportunity to explore a subject of their choice in greater depth, while fostering teamwork and collaboration.  
+## Guidelines for the Open Project
 
-<br>
-<br>
+### Detailed Overview of Evaluation Criteria
 
+#### 1. Choice of Dataset
 
-To complete the project, students may form groups of up to four members, with each group selecting a topic related to discrete mathematics that they find particularly intriguing. Students are encouraged to delve deeply into their chosen topic, conducting thorough research and analysis to develop a comprehensive understanding of the subject matter.
+- **Dataset Selection:** Choose a dataset that has a real-world impact or addresses a relevant societal issue. Some areas to consider:
+  - Healthcare (e.g., predicting disease outcomes, hospital management)
+  - Environment (e.g., climate change data, air quality index)
+  - Education (e.g., student performance, dropout prediction)
+  - Social Media/Behavior (e.g., fake news detection, sentiment analysis)
+  - Economics (e.g., income inequality, unemployment rates)
 
-The final deliverables for the project will consist of both a written report and a video presentation. The report should be well-structured and clearly articulate the group's findings, insights, and conclusions. Meanwhile, the video presentation should offer a concise, engaging, and accessible explanation of the group's work, making it easy for viewers to grasp the key points and appreciate the significance of the project.
-<br> <br>
+- **Justification:** Explain why you chose this dataset and its societal relevance. Consider how the insights gained from your analysis could lead to real-world improvements.
+  - How could this data help identify at-risk populations in healthcare?
+  - How can it raise awareness of an environmental issue?
+  - Could this analysis guide policy decisions?
 
-In addition to these deliverables, the evaluation process will also involve a viva-voce examination. This oral defense will provide an opportunity for students to demonstrate their mastery of the subject matter, as well as their ability to communicate complex ideas effectively. The viva-voce will serve as an important component of the assessment process, ensuring that students have truly internalized and appreciated the concepts they have explored.
+- **Example Justification:** For a healthcare dataset predicting diabetes outcomes:  
+  "The chosen dataset comes from a publicly available healthcare database. The analysis aims to identify key factors that contribute to diabetes and suggest early interventions. The insights could help healthcare providers develop better prevention strategies, leading to a healthier population."
 
-<br> <br>
+#### 2. Understanding of the Dataset
 
-Students are not only allowed but actively encouraged to seek guidance and engage in discussions with others throughout the course of the project. This includes consulting with peers, reaching out to instructors, or even seeking input from experts in the field. These discussions can help to refine the students' understanding, challenge their assumptions, and ultimately lead to a more thorough and well-rounded investigation of their chosen topic.
+- **Description of Dataset:** Include a thorough explanation of the dataset, mentioning:
+  - The source of the data (e.g., Kaggle, government open data portals)
+  - The number of rows and columns
+  - The features/variables (explain key features, such as patient age, environmental factors, etc.)
+  - Any missing values, outliers, or data imbalances
 
-<br> <br>
+- **Example Dataset Breakdown:**  
+  "The dataset contains 70,000 rows and 10 columns. The features include age, BMI, glucose level, and lifestyle factors, all contributing to predicting the likelihood of diabetes. The dataset has a small number of missing values that will be imputed using median values."
 
-In summary, the discrete mathematics course project is designed to offer students a challenging and rewarding learning experience. By working together in small groups, students will have the opportunity to delve into a topic of their choosing, develop valuable research and communication skills, and demonstrate their mastery of the subject matter through a comprehensive report, video presentation, and viva-voce examination.
+- **Data Cleaning and Preprocessing:**  
+  Describe the preprocessing steps you undertook (e.g., handling missing data, outlier treatment, normalization, encoding categorical variables).
+  Mention any feature engineering you performed, such as creating new columns or transforming existing data.
 
-<br> <br>
+#### 3. Algorithm Usage
 
+- **Selection of Algorithm:** Explain why you chose the specific algorithm(s) and how it fits the problem.
+  - For classification problems, you might use algorithms like Logistic Regression, Decision Trees, or Support Vector Machines.
+  - For regression problems, Linear Regression or Random Forest Regression could be a fit.
+  - For clustering, consider K-Means or DBSCAN.
+  - ARIMA or LSTMs might be used for time-series data.
 
-It is important to note that students should begin working on their projects by the middle of the semester. This will ensure that they have ample time to conduct thorough research, collaborate effectively with their group members, and refine their understanding of the topic. Starting early will also allow for any unforeseen challenges or obstacles to be addressed in a timely manner, ultimately leading to a higher-quality final submission. By allocating sufficient time and resources to the project, students will be better positioned to produce a well-rounded, insightful, and impactful exploration of their chosen subject in discrete mathematics.
+- **Justification:** Explain how the algorithm fits the dataset. For example:
+  - If the dataset is large, computationally efficient algorithms may be important.
+  - If interpretability is critical, algorithms like Decision Trees or Logistic Regression might be preferable over complex models like Neural Networks.
 
-<br> <br>
+- **Model Performance:** Mention how you evaluated the model’s performance (e.g., using accuracy, F1-score, RMSE, AUC-ROC). You could also include cross-validation results.  
+  Example Justification:  
+  "We chose Random Forest for its ability to handle large datasets with a variety of feature types (numerical, categorical) and its robustness in avoiding overfitting. We used a 10-fold cross-validation to ensure the model generalized well, achieving an AUC score of 0.85."
 
-</p>
+#### 4. Inferences Drawn
 
-# Project Ideas
+- **Results Interpretation:** Present your findings from the analysis, clearly stating the actionable insights.
+  - What patterns did you observe?
+  - Were there any surprising results?
+  - How could these results be used in a real-world scenario?
 
+- **Example of Inference:**  
+  "The analysis revealed that BMI and glucose levels are the most significant predictors of diabetes. This finding suggests that public health campaigns focusing on weight management and healthy eating could be effective in reducing diabetes rates."
 
-The following are just pointers on what you could do. Feel free to pick something outside of what is specified here. 
+- **Visualizations:** Use charts or plots to support your inferences. Include clear visual representations of the dataset, like heat maps, scatter plots, or bar charts, and explain their relevance to the findings.
 
-1. You can consider reading *Proofs from the Book* a great treatise on discrete math ideas compiled in one text. Read a topic fromt this book and do some searching online and learn as much as you can about the topic.
-2. Understand Pagerank Algorithm in detail and implement it. 
-3. Read a research paper of your choice and understand it thoroughly (in and out).
-4. Understand Data Compression using Shannon's theory and understand the role of discrete mathematics in it.  
+- **Conclusion:** Summarize the overall impact of your analysis. If the results were deployed or used in practice, what could the potential outcomes be?  
+  Example:  
+  "A healthcare provider could implement an early screening tool for diabetes."
+
+---
+
+## Project Submission Guidelines
+
+As part of your final project, you are required to submit a comprehensive report that demonstrates your understanding and application of the concepts covered in this course. Please ensure you follow the instructions below to successfully complete your submission:
+
+1. **Detailed Project Report:**
+   - Submit a well-structured and thorough report documenting your project. This report should clearly explain the problem statement, methodology, datasets used, model(s) implemented, and results achieved.
+   - Ensure that the report is well-formatted, with appropriate sections and subheadings. Use diagrams, charts, or tables where necessary to support your analysis and conclusions.
+
+2. **Google Colab Notebook:**
+   - Submit your project as a Google Colab Notebook, including detailed markdown cells explaining each part of the code.
+   - The notebook should be neatly organized with appropriate sections that correspond to the structure of your report.
+   - Ensure that your notebook includes:
+     - Docstrings: Add comprehensive docstrings to every function or class to explain its purpose and functionality.
+     - In-line Comments: Include in-line comments within the code to clarify specific lines or blocks of code where necessary.
+     - Results: Visualizations, metrics, or outputs from your model should be clearly displayed in the notebook.
+
+3. **General Requirements:**
+   - Name your notebook as `<EntryNo_Name>_ML_Project.ipynb`
+   - Avoid any unnecessary or redundant code. Make sure to clean up your notebook before submission.
+
+---
+
+## Marking Scheme
+
+| Evaluation Criteria                   | Marks |
+|---------------------------------------|-------|
+| **Choice of Dataset**                 |       |
+| Dataset Selection and Justification   | 10    |
+| **Understanding Dataset**             |       |
+| Description of Dataset                | 10    |
+| Data Cleaning and Preprocessing       | 10    |
+| **Understanding Algorithm**           |       |
+| Selection of Algorithm and Justification | 10 |
+| Implementation                        | 20    |
+| Model Performance                     | 10    |
+| **Inference**                         |       |
+| Results Interpretation                | 10    |
+| Visualizations                        | 5     |
+| Conclusion                            | 5     |
+| **Report and Notebook**               |       |
+| Report and Colab Notebook             | 10    |
+
+---
+
+## Documentation
+
+- **Organization:**  
+  - Create a well-structured document with clear headings and sections (Dataset Overview, Algorithm Selection, Results, and Conclusion).
+  - Use concise and clear language that non-technical stakeholders can understand.
+
+- **Detailing:**  
+  Ensure each section is detailed enough to showcase your understanding of the dataset, the algorithm’s workings, and the overall results.
+
+- **Visual Appeal:**  
+  Include visual aids such as diagrams, flowcharts, and model evaluation metrics to enhance clarity. Ensure that visual elements are labeled properly and connected to the narrative.
+
+---
+
+### Example Outline for the Documentation
+
+- **Title:** Impact of Early Intervention Strategies Using Predictive Modeling for Diabetes
+- **Introduction:** Briefly state the problem, the dataset, and your objective.
+- **Dataset Overview:** Detailed explanation of the dataset and the preprocessing steps.
+- **Algorithm Choice and Explanation:** Explanation of the selected algorithm and model performance.
+- **Inferences and Results:** Present insights drawn from the model, along with supporting visualizations.
+- **Conclusion:** Summary of the impact, societal relevance, and potential real-world applications.
+
+*Impactful conclusions and solutions will be considered for bonus marks.*
