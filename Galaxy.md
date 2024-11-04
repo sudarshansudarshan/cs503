@@ -1007,6 +1007,44 @@ As we continue, focus on internalizing these concepts and applying them to pract
 
 
 ---
+# Lady Tasting Tea
+
+The "Lady Tasting Tea" experiment is a famous example in the history of statistics, conducted by the British statistician and geneticist Ronald A. Fisher in the 1920s. This experiment was designed to test whether a woman, referred to as "the lady," could distinguish between two methods of making tea. Specifically, she claimed that she could tell whether milk was added to the cup before or after the tea. Fisher's experiment was one of the first to rigorously apply principles of experimental design and statistical inference, and it laid foundational ideas in hypothesis testing.
+
+Here’s a breakdown of the experiment and its significance:
+
+**1. The Claim**
+The lady claimed that she could taste the difference between tea prepared with milk added first and tea prepared with tea added first.
+
+**2. The Experiment Setup**
+To test her claim, Fisher designed an experiment where the lady was given eight cups of tea. Four cups had milk added first, and four had tea added first, but she did not know which were which.
+
+**3. Hypotheses**
+Fisher set up two hypotheses:
+- **Null Hypothesis (H0)**: The lady cannot distinguish between the two types of tea (any correct guesses would be due to chance).
+- **Alternative Hypothesis (H1)**: The lady can distinguish between the two types of tea better than random chance.
+
+**4. Randomization and Control**
+To prevent bias, the order in which the cups were presented to the lady was randomized, and she had to identify which cups were which based purely on taste, with no other clues or hints.
+
+**5. Statistical Test and Decision**
+The lady then attempted to classify each cup correctly. Fisher used a combinatorial analysis to calculate the probability of her guessing the cups correctly purely by chance. If she identified all cups correctly, Fisher reasoned that this outcome would be unlikely under the null hypothesis (i.e., if she were just guessing). This would provide evidence that she indeed had the ability to taste the difference.
+
+**6. Fisher's Exact Test**
+From this experiment, Fisher developed what we now call "Fisher’s Exact Test," a statistical test used to determine if there are nonrandom associations between two categorical variables, particularly in small sample sizes.
+
+**Significance of the Experiment**
+The "Lady Tasting Tea" experiment illustrated some core principles of modern statistical testing:
+- **Hypothesis Testing**: Formulating and testing a null hypothesis against observed data.
+- **P-value Concept**: Estimating the probability of an observed result under the null hypothesis.
+- **Experimental Design**: Fisher emphasized the importance of randomization and control to avoid bias.
+  
+This experiment is now widely taught as a fundamental example in statistics, as it elegantly captures the essence of hypothesis testing and the use of probability to make inferences in experiments.
+
+The conclusion of the "Lady Tasting Tea" experiment was that the lady in question was indeed able to identify the difference between the two methods of adding milk (milk-first vs. tea-first) with greater accuracy than would be expected by chance. Fisher’s experiment showed that the probability of her guessing correctly by chance was low enough to reject the null hypothesis. This provided evidence that she could indeed distinguish between the two methods, suggesting that the taste difference was real and perceptible for her, at least under the controlled conditions of the experiment.
+
+---
+
 
 # Neuaral Networks
 
