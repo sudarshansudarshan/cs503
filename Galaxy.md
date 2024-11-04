@@ -1008,15 +1008,15 @@ As we continue, focus on internalizing these concepts and applying them to pract
 
 ---
 
-# Learning From Data
+# Neuaral Networks
 
-![LFD](/machinelearning/assets/images/nn1.png)
-![LFD](/machinelearning/assets/images/nn2.png)
-![LFD](/machinelearning/assets/images/nn3.png)
-![LFD](/machinelearning/assets/images/nn4.png)
-![LFD](/machinelearning/assets/images/nn5.png)
-![LFD](/machinelearning/assets/images/nn6.png)
-![LFD](/machinelearning/assets/images/nn7.png)
+![NN](/machinelearning/assets/images/nn1.png)
+![NN](/machinelearning/assets/images/nn2.png)
+![NN](/machinelearning/assets/images/nn3.png)
+![NN](/machinelearning/assets/images/nn4.png)
+![NN](/machinelearning/assets/images/nn5.png)
+![NN](/machinelearning/assets/images/nn6.png)
+![NN](/machinelearning/assets/images/nn7.png)
 
 ---
 
