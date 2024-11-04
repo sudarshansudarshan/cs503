@@ -786,7 +786,7 @@ Your task is to divide the employees into two equal-sized groups (50 each) such 
 
 # The Learning Problem
 
-## 1. Recap of Previous Session
+**1. Recap of Previous Session**
 
 We began by recalling the major problem we were addressing:
 
@@ -795,9 +795,9 @@ We began by recalling the major problem we were addressing:
 
 ---
 
-## 2. Sampling and Estimation
+**2. Sampling and Estimation**
 
-### 2.1. The Jar of Balls Analogy
+**2.1. The Jar of Balls Analogy**
 
 - **Scenario**: A jar contains an unknown mix of black and white balls.
 - **Objective**: Estimate the proportion of black and white balls.
@@ -808,47 +808,47 @@ We began by recalling the major problem we were addressing:
   - Use sample proportions to infer the true proportions in the jar.
   - **Law of Large Numbers**: Increasing the number of samples improves the accuracy of the estimate.
 
-### 2.2. Importance of Sample Size
+**2.2. Importance of Sample Size**
 
 - **Reducing Variability**: Larger samples reduce the probability that the sample estimate deviates significantly from the true proportion.
 - **Confidence in Estimates**: More samples lead to tighter bounds on estimation errors.
 
 ---
 
-## 3. Machine Learning Concepts
+**3. Machine Learning Concepts**
 
-### 3.1. Hypothesis Functions and Classification
+**3.1. Hypothesis Functions and Classification**
 
 - **Data Points**: Consider a set of points to classify.
-- **Hypothesis Set ($$ H $$)**:
+- **Hypothesis Set ($ H $)**:
   - A collection of functions (classifiers) used to model the data.
   - **Examples**: Linear classifiers, decision trees, neural networks.
-- **Redundancy in $$ H $$**:
+- **Redundancy in $ H $**:
   - Functions that classify data identically can be considered the same.
-  - **Simplifying $$ H $$**: Reduces complexity by eliminating redundant hypotheses.
+  - **Simplifying $ H $**: Reduces complexity by eliminating redundant hypotheses.
 
-### 3.2. In-Sample and Out-of-Sample Error
+**3.2. In-Sample and Out-of-Sample Error**
 
-- **In-Sample Error ($$ E_{\text{in}} $$)**:
+- **In-Sample Error ($ E_{\text{in}} $)**:
   - The proportion of misclassified points in the training data.
-- **Out-of-Sample Error ($$ E_{\text{out}} $$)**:
+- **Out-of-Sample Error ($ E_{\text{out}} $)**:
   - The expected error on new, unseen data.
-- **Goal**: Minimize $$ E_{\text{out}} $$ to ensure good generalization.
+- **Goal**: Minimize $ E_{\text{out}} $ to ensure good generalization.
 
 ---
 
-## 4. Generalization and Error Bounds
+**4. Generalization and Error Bounds**
 
-### 4.1. The Need for Error Bounds
+**4.1. The Need for Error Bounds**
 
-- **Challenge**: $$ E_{\text{out}} $$ cannot be directly computed.
-- **Solution**: Use probabilistic bounds to relate $$ E_{\text{in}} $$ and $$ E_{\text{out}} $$.
-- **Key Question**: How can we ensure that $$ E_{\text{in}} $$ is close to $$ E_{\text{out}} $$?
+- **Challenge**: $ E_{\text{out}} $ cannot be directly computed.
+- **Solution**: Use probabilistic bounds to relate $ E_{\text{in}} $ and $ E_{\text{out}} $.
+- **Key Question**: How can we ensure that $ E_{\text{in}} $ is close to $ E_{\text{out}} $?
 
-### 4.2. Hoeffding's Inequality
+**4.2. Hoeffding's Inequality**
 
 - **Statement**:
-  - For independent random variables, the probability that the sample mean deviates from the true mean by more than $$ \epsilon $$ decreases exponentially with sample size ($$ N $$).
+  - For independent random variables, the probability that the sample mean deviates from the true mean by more than $$ \epsilon $$ decreases exponentially with sample size ($ N $).
 - **Formula**:
   $$
   P\left(|E_{\text{in}} - E_{\text{out}}| > \epsilon\right) \leq 2e^{-2\epsilon^2 N}
@@ -856,30 +856,30 @@ We began by recalling the major problem we were addressing:
 - **Interpretation**:
   - Provides a bound on the probability that the in-sample error deviates from the out-of-sample error.
 
-### 4.3. Union Bound
+**4.3. Union Bound**
 
 - **Concept**:
   - When considering multiple hypotheses, the probability that any one of them fails to generalize well is bounded by the sum of their individual probabilities.
 - **Application**:
-  - For $$ M $$ hypotheses:
+  - For $ M $ hypotheses:
     $$
     P\left(\exists h \in H: |E_{\text{in}}(h) - E_{\text{out}}(h)| > \epsilon\right) \leq 2M e^{-2\epsilon^2 N}
     $$
 - **Implication**:
-  - The more hypotheses we have, the looser the bound becomes unless $$ N $$ increases.
+  - The more hypotheses we have, the looser the bound becomes unless $ N $ increases.
 
 ---
 
-## 5. The Role of Hypothesis Complexity
+**5. The Role of Hypothesis Complexity**
 
-### 5.1. Number of Hypotheses ($$ M $$)
+**5.1. Number of Hypotheses ($ M $)**
 
 - **Effect on Error Bounds**:
-  - Larger $$ M $$ increases the bound, making it harder to guarantee small $$ E_{\text{out}} $$.
+  - Larger $ M $ increases the bound, making it harder to guarantee small $ E_{\text{out}} $.
 - **Managing Complexity**:
-  - Limiting $$ M $$ (e.g., through regularization) helps improve generalization.
+  - Limiting $ M $ (e.g., through regularization) helps improve generalization.
 
-### 5.2. VC Dimension
+**5.2. VC Dimension**
 
 - **Definition**:
   - A measure of the capacity of a hypothesis set to shatter datasets.
@@ -890,9 +890,9 @@ We began by recalling the major problem we were addressing:
 
 ---
 
-## 6. Practical Examples
+**6. Practical Examples**
 
-### 6.1. Coin Toss Experiment
+**6.1. Coin Toss Experiment**
 
 - **Setup**:
   - Six people each toss a coin 1,000 times.
@@ -905,7 +905,7 @@ We began by recalling the major problem we were addressing:
 - **Connection to Learning**:
   - Analogous to considering the worst-case hypothesis in a hypothesis set.
 
-### 6.2. Height Distribution Analogy
+**6.2. Height Distribution Analogy**
 
 - **Observation**:
   - In a group of 100 students, finding a six-footer is probable.
@@ -916,9 +916,9 @@ We began by recalling the major problem we were addressing:
 
 ---
 
-## 7. Mathematical Derivations
+**7. Mathematical Derivations**
 
-### 7.1. Bounding the Error
+**7.1. Bounding the Error**
 
 - **Objective**:
   - Find $$ \epsilon $$ such that $$ P(\|E_{\text{in}} - E_{\text{out}}\| > \epsilon) $$ is acceptably low.
@@ -929,30 +929,30 @@ We began by recalling the major problem we were addressing:
     $$
     where $$ \delta $$ is the desired probability bound.
 
-### 7.2. Understanding $$ M $$
+**7.2. Understanding $ M $**
 
 - **Combinatorial Considerations**:
-  - $$ M $$ can be large (even exponential) depending on the hypothesis set.
+  - $ M $ can be large (even exponential) depending on the hypothesis set.
   - **Example**:
-    - For binary classification with $$ N $$ points, $$ M $$ can be up to $$ 2^{N} $$.
+    - For binary classification with $ N $ points, $ M $ can be up to $ 2^{N} $.
 - **Practical Approach**:
-  - Use simpler models or regularization to keep $$ M $$ manageable.
+  - Use simpler models or regularization to keep $ M $ manageable.
   - Ensures that the bound remains meaningful.
 
 ---
 
-## 8. Key Insights and Takeaways
+**8. Key Insights and Takeaways**
 
-### 8.1. Balancing Sample Size and Model Complexity
+**8.1. Balancing Sample Size and Model Complexity**
 
-- **Sample Size ($$ N $$)**:
-  - Increasing $$ N $$ tightens the error bound.
-- **Model Complexity ($$ M $$)**:
-  - Reducing $$ M $$ (simpler models) also tightens the bound.
+- **Sample Size ($ N $)**:
+  - Increasing $ N $ tightens the error bound.
+- **Model Complexity ($ M $)**:
+  - Reducing $ M $ (simpler models) also tightens the bound.
 - **Trade-Off**:
   - Need to balance complexity and available data to achieve good generalization.
 
-### 8.2. Importance of Theoretical Understanding
+**8.2. Importance of Theoretical Understanding**
 
 - **Mathematical Foundations**:
   - Provides confidence in the learning algorithms.
@@ -962,9 +962,9 @@ We began by recalling the major problem we were addressing:
 
 ---
 
-## 9. Assignments and Further Reading
+**9. Assignments and Further Reading**
 
-### 9.1. Upcoming Test
+**9.1. Upcoming Test**
 
 - **Content**:
   - Based on the first five lectures from "Learning from Data" by Yaser S. Abu-Mostafa.
@@ -972,7 +972,7 @@ We began by recalling the major problem we were addressing:
   - Watch the lectures available on YouTube.
   - Review the corresponding chapters in the book.
 
-### 9.2. Suggested Exercises
+**9.2. Suggested Exercises**
 
 - **Probability Calculations**:
   - Practice calculating bounds using Hoeffding's inequality.
@@ -983,7 +983,7 @@ We began by recalling the major problem we were addressing:
 
 ---
 
-## Summary
+**Summary**
 
 Understanding the theoretical aspects of machine learning is crucial for:
 
