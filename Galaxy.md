@@ -1046,7 +1046,7 @@ The conclusion of the "Lady Tasting Tea" experiment was that the lady in questio
 ---
 
 
-# Neuaral Networks
+# Neural Networks
 
 ![NN](/machinelearning/assets/images/nn1.png)
 ![NN](/machinelearning/assets/images/nn2.png)
