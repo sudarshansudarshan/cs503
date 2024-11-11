@@ -1080,4 +1080,11 @@ The conclusion of the "Lady Tasting Tea" experiment was that the lady in questio
 
 ---
 
+# Lecture-11/11/2024
+
+![CNN](/machinelearning/assets/images/CNN1.png)
+![CNN](/machinelearning/assets/images/CNN3.png)
+
+---
+
 _First draft notes by Aashik Arun Bobade. For any corrections, contact: bobadeaashik@gmail.com._
