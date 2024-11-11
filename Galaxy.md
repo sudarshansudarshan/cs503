@@ -994,6 +994,25 @@ Understanding the theoretical aspects of machine learning is crucial for:
 As we continue, focus on internalizing these concepts and applying them to practical scenarios.
 
 ---
+# SVM
+![SVM](/machinelearning/assets/images/SVM1.png)
+![SVM](/machinelearning/assets/images/SVM2.png)
+![SVM](/machinelearning/assets/images/SVM3.png)
+![SVM](/machinelearning/assets/images/SVM4.png)
+![SVM](/machinelearning/assets/images/SVM5.png)
+![SVM](/machinelearning/assets/images/SVM6.png)
+![SVM](/machinelearning/assets/images/SVM7.png)
+![SVM](/machinelearning/assets/images/SVM8.png)
+![SVM](/machinelearning/assets/images/SVM9.png)
+![SVM](/machinelearning/assets/images/SVM10.png)
+![SVM](/machinelearning/assets/images/SVM11.png)
+![SVM](/machinelearning/assets/images/SVM12.png)
+![SVM](/machinelearning/assets/images/SVM13.png)
+
+
+
+
+---
 
 # Learning From Data
 
