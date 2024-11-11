@@ -995,6 +995,7 @@ As we continue, focus on internalizing these concepts and applying them to pract
 
 ---
 # SVM
+
 ![SVM](/machinelearning/assets/images/SVM1.png)
 ![SVM](/machinelearning/assets/images/SVM2.png)
 ![SVM](/machinelearning/assets/images/SVM3.png)
@@ -1009,7 +1010,9 @@ As we continue, focus on internalizing these concepts and applying them to pract
 ![SVM](/machinelearning/assets/images/SVM12.png)
 ![SVM](/machinelearning/assets/images/SVM13.png)
 
-
+Notes by Dr. Mudasir Ahmad
+Sir suggested the following paper for further understanding:
+https://www.researchgate.net/publication/220578095_Least_Squares_Support_Vector_Machine_Classifiers
 
 
 ---
