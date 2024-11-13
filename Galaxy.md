@@ -1033,8 +1033,8 @@ Consider a set of 2D data points scattered across three distinct regions. Here, 
 
 **Mathematical Notation**  
 
-1. Let the data points be represented by \( X = \{x_1, x_2, \dots, x_n\} \), where \( x_i \in \mathbb{R}^d \).
-2. We aim to **partition** this dataset \( X \) into **\( k \) clusters**.
+1. Let the data points be represented by $$ X = \{x_1, x_2, \dots, x_n\} $$, where $$ x_i \in \mathbb{R}^d $$.
+2. We aim to **partition** this dataset $$ X $$ into **$$ k $$ clusters**.
 
 ---
 
@@ -1044,16 +1044,16 @@ Consider a set of 2D data points scattered across three distinct regions. Here, 
 
 The clustering process involves assigning data points to clusters, aiming for **homogeneity** within each cluster. Formally, we define:
 
-- **Cluster Indicator Variable** \( z_i \): For each data point \( x_i \), \( z_i \in \{1, 2, \dots, k\} \) denotes the cluster assignment.
-- **Cluster Centers (Centroids)** \( \mu_k \): For each cluster \( k \), the center \( \mu_k \) is computed as the mean of all points assigned to that cluster.
+- **Cluster Indicator Variable** $$ z_i $$: For each data point $$ x_i $$, $$ z_i \in \{1, 2, \dots, k\} $$ denotes the cluster assignment.
+- **Cluster Centers (Centroids)** $$ \mu_k $$: For each cluster $$ k $$, the center $$ \mu_k $$ is computed as the mean of all points assigned to that cluster.
 
 **Measuring Cluster Homogeneity**  
 
 A common measure of clustering quality is the **sum of squared distances (SSD)** between each point and its cluster center, formulated as:
 
-\[
+$$
 J = \sum_{i=1}^n \| x_i - \mu_{z_i} \|^2
-\]
+$$
 
 This expression minimizes within-cluster variance, making clusters as tight as possible.
 
@@ -1063,26 +1063,26 @@ This expression minimizes within-cluster variance, making clusters as tight as p
 
 **Combinatorial Complexity**  
 
-Given \( n \) points and \( k \) clusters, the **number of ways** to partition \( X \) into \( k \) clusters grows exponentially. For instance, with \( n = 5 \) points and \( k = 3 \), there are \( 3^5 = 243 \) possible partitions.
+Given $$ n $$ points and $$ k $$ clusters, the **number of ways** to partition $$ X $$ into $$ k $$ clusters grows exponentially. For instance, with $$ n = 5 $$ points and $$ k = 3 $$, there are $$ 3^5 = 243 $$ possible partitions.
 
 **NP-Hard Nature of Clustering**
 
-Finding the optimal partition requires testing all possible assignments, a task that is **NP-hard**. For a large number of points and clusters, the number of possible partitions becomes computationally infeasible, even for moderate values like \( n = 1000 \) and \( k = 2 \), leading to \( 2^{1000} \) combinations.
+Finding the optimal partition requires testing all possible assignments, a task that is **NP-hard**. For a large number of points and clusters, the number of possible partitions becomes computationally infeasible, even for moderate values like $$ n = 1000 $$ and $$ k = 2 $$, leading to $$ 2^{1000} $$ combinations.
 
 ---
 
 **Practical Solution: Heuristic Approaches**  
 
-Since exact computation is infeasible, clustering typically relies on **heuristic algorithms**. The lecture hints at introducing a **popular clustering heuristic**, which will aim to minimize the partition cost \( J \) through an approximate solution.
+Since exact computation is infeasible, clustering typically relies on **heuristic algorithms**. The lecture hints at introducing a **popular clustering heuristic**, which will aim to minimize the partition cost $$ J $$ through an approximate solution.
 
 **Example: K-Means Objective Function**  
 
 The **K-Means algorithm** is one such heuristic that iteratively refines cluster assignments and centers to reduce the SSD. Each iteration involves two main steps:
 
-1. **Assignment Step**: Assign each \( x_i \) to the nearest cluster center.
-2. **Update Step**: Recompute \( \mu_k \) as the mean of all points assigned to cluster \( k \).
+1. **Assignment Step**: Assign each $$ x_i $$ to the nearest cluster center.
+2. **Update Step**: Recompute $$ \mu_k $$ as the mean of all points assigned to cluster $$ k $$.
 
-The process continues until the SSD cost function \( J \) converges or a predefined number of iterations is reached.
+The process continues until the SSD cost function $$ J $$ converges or a predefined number of iterations is reached.
 
 ---
 
@@ -1105,7 +1105,102 @@ These notes cover clustering’s mathematical foundations, complexity considerat
 
 ---
 
+# K-Means Clustering and Lloyd's Algorithm  
 
+---
+
+**Overview of Lloyd's Algorithm**  
+
+**Context and Terminology**  
+
+This lecture introduces **Lloyd's Algorithm**, commonly called the **K-Means Algorithm**, a popular approach to clustering in unsupervised learning. The objective of the K-Means problem is to partition a dataset into **$$ k $$ clusters**, each represented by a central point or "mean." Lloyd's algorithm iteratively approximates a solution to this problem.
+
+---
+
+**Steps of Lloyd’s Algorithm**  
+
+**Step 1: Initialization**  
+
+To begin clustering, we assign each data point a **cluster indicator** $$ z $$ as an initial label. This initialization step can be arbitrary but affects the final result and convergence speed. Each data point $$ x_i $$ is assigned a random $$ z_i \in \{1, \dots, k\} $$ that identifies its initial cluster.
+
+**Step 2: Compute the Mean (Centroid)**  
+
+In each iteration, for every cluster $$ k $$, calculate the **centroid** $$ \mu_k $$ by averaging the data points assigned to it. This centroid update for each cluster $$ k $$ can be expressed as:
+
+$$
+\mu_k^{(t)} = \frac{1}{|C_k|} \sum_{x_i \in C_k} x_i
+$$
+
+where $$ C_k $$ is the set of all data points currently assigned to cluster $$ k $$.
+
+**Step 3: Reassignment Step**  
+
+After updating centroids, each data point \( x_i \) is reassigned to the cluster with the nearest mean. The cluster indicator $$ z_i $$ is updated as:
+
+$$
+z_i = \underset{k}{\operatorname{arg\,min}} \| x_i - \mu_k^{(t)} \|^2
+$$
+
+This step ensures that each point moves towards the cluster that minimizes its distance to the centroid.
+
+---
+
+**Convergence and Termination**  
+
+**Convergence Criteria**  
+
+The algorithm iterates until **convergence**, defined as a state where no points change clusters. This can occur when each point's distance to its current cluster centroid is less than or equal to the distance to any other centroid.
+
+1. **Convergence Check**: If, in a given iteration, no points are reassigned to different clusters, the algorithm terminates.
+2. **Loop Prevention**: Lloyd's algorithm avoids infinite loops by consistently reducing the **sum of squared errors (SSE)** with each iteration. Thus, convergence is guaranteed, although it may not always reach the global optimum.
+
+**Potential Limitations**  
+
+While Lloyd's algorithm is guaranteed to converge, it may not find the optimal clustering. The converged solution can depend heavily on the **initialization** and might only be a **local minimum**. This limitation is a trade-off due to the problem's NP-hard nature.
+
+---
+
+**Example Walkthrough: A K-Means Cycle**  
+
+1. **Initialize clusters**: Randomly assign data points to initial clusters.
+2. **Compute Centroids**: Calculate centroids for each cluster based on current assignments.
+3. **Reassign Points**: Reassign each data point to the closest centroid.
+4. **Repeat**: Continue the compute-reassign cycle until convergence.
+
+This process illustrates how points iteratively move closer to centroids, forming tight clusters.
+
+---
+
+**Key Questions on Lloyd’s Algorithm**  
+
+**Q1: Does the Algorithm Converge?**  
+
+Yes, Lloyd's algorithm is proven to converge since it decreases the SSE in each iteration. However, convergence depends on the initialization and may lead to suboptimal clusters.
+
+**Q2: What Kind of Clusters Does It Produce?**  
+
+Lloyd’s algorithm tends to create compact, spherical clusters but may struggle with datasets that have varying densities or non-spherical shapes.
+
+**Q3: How Should Initialization Be Performed?**  
+
+Initialization can impact results significantly. Common techniques include **random selection** or methods like **K-Means++** for smarter initial placement of centroids to improve convergence quality.
+
+**Q4: How Do We Choose $$ k $$?**  
+
+The number of clusters $$ k $$ is often unknown and determined by **evaluation metrics** like the **Elbow Method** or **Silhouette Score** to assess the best number of clusters based on dataset characteristics.
+
+---
+
+**Key Takeaways**  
+
+- Lloyd's algorithm is a popular heuristic for clustering, especially useful for quick approximations.
+- Despite limitations like sensitivity to initialization and local minima, it produces reasonable clusters in practice.
+- Selecting $$ k $$ and initializing centroids are key to improving the performance of the algorithm.
+
+These notes cover Lloyd’s algorithm’s steps, convergence properties, and practical considerations for clustering.
+
+
+---
 
 
 
