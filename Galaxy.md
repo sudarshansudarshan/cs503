@@ -1278,7 +1278,7 @@ The convergence of the Lloyd's Algorithm is based on two core ideas:
 
 ---
 
-**Summary of the Convergence Proof  **
+**Summary of the Convergence Proof**
 
 In summary, Lloyd’s Algorithm will always converge, but the result may depend on initialization and may not provide the globally optimal clustering configuration.
 
