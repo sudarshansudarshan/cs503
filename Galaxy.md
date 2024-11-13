@@ -1017,6 +1017,98 @@ https://www.researchgate.net/publication/220578095_Least_Squares_Support_Vector_
 
 ---
 
+# Introduction to Clustering  
+
+**Overview of Clustering in Unsupervised Learning**  
+
+**Context of Clustering**  
+
+In this lecture, clustering is introduced as a key method in **unsupervised learning**. Unlike **representation learning**, which includes techniques like **Principal Component Analysis (PCA)** and its variant **Kernel PCA**, clustering is aimed at discovering inherent group structures within a dataset.
+
+---
+
+**Motivation for Clustering: Example**  
+
+Consider a set of 2D data points scattered across three distinct regions. Here, PCA would capture variance along the main directions of the dataset, but it would miss local groups or clusters among the points. Clustering addresses this by grouping similar data points, aiming to capture more than variance alone.
+
+**Mathematical Notation**  
+
+1. Let the data points be represented by \( X = \{x_1, x_2, \dots, x_n\} \), where \( x_i \in \mathbb{R}^d \).
+2. We aim to **partition** this dataset \( X \) into **\( k \) clusters**.
+
+---
+
+**Approaches and Definitions**  
+
+**Defining Clusters Using a Performance Metric**  
+
+The clustering process involves assigning data points to clusters, aiming for **homogeneity** within each cluster. Formally, we define:
+
+- **Cluster Indicator Variable** \( z_i \): For each data point \( x_i \), \( z_i \in \{1, 2, \dots, k\} \) denotes the cluster assignment.
+- **Cluster Centers (Centroids)** \( \mu_k \): For each cluster \( k \), the center \( \mu_k \) is computed as the mean of all points assigned to that cluster.
+
+**Measuring Cluster Homogeneity**  
+
+A common measure of clustering quality is the **sum of squared distances (SSD)** between each point and its cluster center, formulated as:
+
+\[
+J = \sum_{i=1}^n \| x_i - \mu_{z_i} \|^2
+\]
+
+This expression minimizes within-cluster variance, making clusters as tight as possible.
+
+---
+
+**The Clustering Problem and its Complexity**  
+
+**Combinatorial Complexity**  
+
+Given \( n \) points and \( k \) clusters, the **number of ways** to partition \( X \) into \( k \) clusters grows exponentially. For instance, with \( n = 5 \) points and \( k = 3 \), there are \( 3^5 = 243 \) possible partitions.
+
+**NP-Hard Nature of Clustering**
+
+Finding the optimal partition requires testing all possible assignments, a task that is **NP-hard**. For a large number of points and clusters, the number of possible partitions becomes computationally infeasible, even for moderate values like \( n = 1000 \) and \( k = 2 \), leading to \( 2^{1000} \) combinations.
+
+---
+
+**Practical Solution: Heuristic Approaches**  
+
+Since exact computation is infeasible, clustering typically relies on **heuristic algorithms**. The lecture hints at introducing a **popular clustering heuristic**, which will aim to minimize the partition cost \( J \) through an approximate solution.
+
+**Example: K-Means Objective Function**  
+
+The **K-Means algorithm** is one such heuristic that iteratively refines cluster assignments and centers to reduce the SSD. Each iteration involves two main steps:
+
+1. **Assignment Step**: Assign each \( x_i \) to the nearest cluster center.
+2. **Update Step**: Recompute \( \mu_k \) as the mean of all points assigned to cluster \( k \).
+
+The process continues until the SSD cost function \( J \) converges or a predefined number of iterations is reached.
+
+---
+
+**Visual Illustration of Clustering Concepts**  
+
+1. **Data Scatter Plot**: The initial data points, grouped loosely across a 2D space, show an apparent need for clustering.
+2. **Principal Component Line**: A line representing the maximum variance (principal component) is drawn, showing how PCA might miss sub-group structures.
+3. **Cluster Boundaries**: Overlaying the plot with cluster boundaries or centroids illustrates the captured structure through clustering. Each point's **distance to its centroid** demonstrates the optimization goal of minimizing this SSD distance.  
+
+---
+
+**Key Takeaways**
+
+- Clustering reveals structural relationships within data beyond simple variance.
+- The process is complex due to its NP-hard nature, requiring heuristic approaches like K-Means for practical applications.
+- Performance measures such as **within-cluster sum of squared distances** guide the quality of clustering results.
+
+These notes cover clustering’s mathematical foundations, complexity considerations, and visual interpretations that clarify its role in unsupervised learning.
+
+
+---
+
+
+
+
+
 # Learning From Data
 
 ![LFD](/machinelearning/assets/images/LFD1.png)
