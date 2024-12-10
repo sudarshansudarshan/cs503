@@ -1,0 +1,88 @@
+# Motivation for ML
+
+## HES-Subjects Example
+
+Let's start with a simple question: Given the marks of a student in English and Hindi, can we predict the marks they might get in Sanskrit? What if we try to see it as a linear combination? 
+
+![HES](/machinelearning/assets/images/English.png)
+
+
+Think about it like this — can we find a combination of English and Hindi marks that equals the Sanskrit marks? For example, could it be that:
+
+- `0.2 * English + 0.8 * Hindi = Sanskrit`  
+- Or maybe `0.6 * English + 0.4 * Hindi = Sanskrit`?
+
+Now, here's something to ponder: we only looked at two subjects, but what happens if we throw in more subjects? What if we have 3, 4, 5, or even 100 subjects? Do you see how the complexity of this question ramps up significantly?
+
+As the number of subjects increases, it becomes harder and harder to find the right combination. The challenge here is to figure out if we can express the marks in one subject as a linear combination of the others. How would you approach this problem when dealing with multiple subjects?
+
+---
+
+## Radio Example: Parameter Tuning
+
+Let's take a trip back to the 1930s. Imagine you're tuning an old radio with a knob controller. To find the right station, you'd have to slowly tweak the knob, trying to tune into the clearest signal. So in a way, you were performing an algorithm to connect to the best station. 
+
+Now, what do you think happens when you turn the knob clockwise? What if you hear loud noises? Naturally, you'd switch direction and try turning it anticlockwise, right? And if you start hearing faint music, you'd keep turning in that direction to zero in on the best sound.
+
+This is very similar to what we do in Machine Learning. We try to tune our parameters to reduce noise or loss and increase the score. Can you see how this old-school radio tuning is just like parameter tuning in ML?
+
+You start with one direction, assess the output (in this case, the sound), and then decide whether to continue or adjust your approach. The goal is always to find that sweet spot where everything sounds just right, or in ML terms, where the model performs optimally.
+
+---
+
+## Binary Search: The Laptop Thief
+
+Imagine you're given a 4K resolution video that runs for 4.5 hours. The video shows a study table, and at the beginning, there's a laptop on the table. But by the end of the video, the laptop is gone—someone has stolen it. Here's the challenge: you need to find the exact moment when the laptop was taken. But watching the entire 4.5 hours of footage seems impractical, doesn't it?
+
+What's the best way to tackle this? 
+
+A smart approach would be to jump to the middle of the video and see if the laptop is still there. If it is, then the theft must have occurred in the second half. If it's not, then the first half is where the action happened. 
+
+What would you do next? You'd continue this process, checking the middle of the relevant section each time until you pinpoint the exact moment when the laptop was picked up.
+
+Why is this method so efficient? It's because you're using a binary search technique, which allows you to find the moment in `log(n)` time. Instead of scanning through every second of the video, you're drastically cutting down the time it takes to find the key moment. Can you see why this method is so powerful?
+
+---
+
+## COVID Testing: Minimizing the Number of Tests
+
+Consider a scenario where a clinic needs to test a group of 10 people for COVID-19. Individual testing is expensive, so the clinic needs an efficient strategy to minimize costs. How can they do this?
+
+The best approach is to minimize the number of tests while still accurately identifying infected individuals. Here's how it can be done:
+
+1. **Initial Batch Testing**: The lab assistant divides the 10 test samples into two groups of 5. She then mixes the samples of each group and tests them in two separate test tubes.
+   - If the first batch tests positive, she knows that someone in this group is infected. The second batch, which tests negative, can be ignored—saving 5 tests!
+
+2. **Further Subdivision**: Now, the assistant takes the positive batch and divides it into smaller groups, perhaps 2 and 3 samples each, and tests them again. By following this process, she narrows down the infected individual(s).
+
+3. **Efficiency**: This method is highly efficient because it halves the search space in every iteration. The assistant only conducts the minimum number of tests necessary to identify the infected person(s).
+
+Can you figure out the minimum number of tests required for any number of samples, $$n$$? 
+
+It's `log(n)`. This is where you can see the binary search in action!
+
+To make it even more efficient, you could experiment with different batch sizes, like grouping $$k$$ samples together instead of just 2. This could further reduce the number of tests required.
+
+
+---
+
+## Finding $$\sqrt{11}$$ 
+
+Finding the square root of 11 is equivalent to finding the root of the equation     
+
+$$x^2 - 11 =0 $$
+
+Note that one can observe that the root lies between 3 and 4, simply because considering $$ f(x) = x^2 - 11 $$, $$f(3)<0$$ and $$f(4)>0$$.
+
+This means the answer lies between 3 and 4.
+
+One can further observe that the root lies between 3 and 3.5 and not between 3.5 and 4.
+
+We can keep reducing the size of the interval this way. 
+
+Every time, we reduce the interval by half. 
+
+It is easy to see that we can find the value of $$\sqrt{11}$$ with increased accuracy with increase in the number of steps.
+
+**Observe: The number of steps(iterations) at which we converge to the answer is logarithmic (why?)**
+**Reason: Every step leads to a reduction in one of the numbers by half**
